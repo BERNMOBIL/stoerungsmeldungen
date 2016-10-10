@@ -1,0 +1,246 @@
+body {
+    background-color: #f2f2f2;
+    font-family: "Helvetica";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+}
+
+.logo {
+    margin-top: 40px;
+}
+
+#header {
+    background-color: #CC003D;
+    height: 100px;
+	text-align: left;
+	padding-left: 30px;
+}
+
+#img-header {
+	width:100%;
+}
+
+.applikationen {
+    margin-top: 50px;
+}
+
+#footer {
+    position: absolute;
+    height: 100px;
+    background: #2b2b2b;
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* Caption Style */
+.mask figure {
+	overflow: hidden;
+}
+
+.mask figure img {
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+.no-touch .mask figure:hover img,
+.mask figure.cs-hover img {
+	-webkit-transform: translateY(-30px);
+	-moz-transform: translateY(-30px);
+	-ms-transform: translateY(-30px);
+	transform: translateY(-30px);
+}
+
+.mask figcaption {
+	height: 50px;
+	width: 100%;
+	top: auto;
+	bottom: 0;
+	opacity: 0;
+	-webkit-transform: translateY(100%);
+	-moz-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.no-touch .mask figure:hover figcaption,
+.mask figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+.mask figcaption a {
+	position: absolute;
+	top:10px;
+	bottom: 10px;
+	right: 30px;
+}
+
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid figure img {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 50;
+	left: 0;
+	padding: 20px;
+	color: #fff;
+	background: #CC003D;
+}
+
+.grid figcaption h5 {
+	margin: 0;
+	padding-top: 0px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	color: #fff;
+	font-weight: 700;
+	text-align: left;
+	letter-spacing: 2px;
+	
+}
+
+.grid figcaption a {
+	text-align: left;
+	padding: 5px 10px;
+	margin-left: 20px;
+	display: inline-block;
+	background: #2f2f2f;
+	color: #fff;
+	font-size: 13px;
+}
+
+.text-center h3 {
+    font-weight: 600;
+    color: #CC003D;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+}
+
+#portfolio {
+    height: 
+}
+
+
+@media (max-width: 1366px) {
+    #backgroundheadimg {
+    height: 600px;
+}
+}
+
+.text-center img {
+    margin-top: 20px;
+    color: #fff;
+    
+}
+
+@media (max-width: 1024px) {
+    #backgroundheadimg {
+    height: 450px;
+}
+}
+
+
+@media (max-width: 800px) {
+    #backgroundheadimg {
+    height: 350px;
+}
+}
+
+@media (max-width: 414px) {
+    #backgroundheadimg {
+    height: 270px;
+}
+}
+
+@media (max-width: 375px) {
+    #backgroundheadimg {
+    height: 250px;
+}
+}
+
+@media (max-width: 320px) {
+    #backgroundheadimg {
+    height: 150px;
+}
+}
+
+#w {
+	background: #ffffff;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	text-align: center;
+}
+
+#w h3 bold {
+	font-weight: 700;
+	color: #7b7b7b;
+	letter-spacing: 1px;
+}
+
+#w h3 {
+	font-weight: 700;
+	color: #CC003D;
+	letter-spacing: 1px;
+}
+
+#w bold {
+	color: #CC003D;
+}
+
+a {
+    color: #CC003D;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: white;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+.btn:hover {
+    background: #f2f2f2;
+    color: #555;
+}
+
+.text-center img {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+

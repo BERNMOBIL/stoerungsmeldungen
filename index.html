@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Home Open Data App University of Bern">
+    <meta name="author" content="Team BernMobil Universität Bern">
+
+    <title>Applikationsübersicht</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/start.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/story.css">
+</head>
+
+<body>
+
+<!--====== HEAD =====-->
+
+<div id="header">
+    <img class="logo" src="img/logo.png">
+</div>
+
+<div>
+   <img id="img-header" src="img/hintergrund.jpg">
+</div>
+
+
+<!--===== PORTFOLIO =====-->
+
+<div id="portfolio">
+
+    <div id="w">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h3>WILLKOMMEN
+                        <bold>AUF UNSERER PLATTFORM ZUR VISUALISIERUNG VON</bold>
+                        STÖRUNGSMELDUNGEN DER <a href="http://bernmobil.ch">BERNMOBIL</a>
+                        <bold>. ENTWICKELT WURDE DIESE APPLIKATION IM RAHMEN DER VORLESUNG</bold>
+                        "OPEN DATA"
+                        <bold> AN DER</bold>
+                        UNIVERSITÄT BERN
+                        <bold>.</bold>
+                        <br/>
+                        <br>
+                        <bold>WÄHLE NUN EINE DER FOLGENDEN</bold>
+                        APPLIKATIONEN
+                        <bold> AUS, UM DIE</bold>
+                        GLEICHEN
+                        <bold> DATEN IN</bold>
+                        UNTERSCHIEDLICHEM
+                        <bold>KONTEXT ZU BETRACHTEN:</bold>
+                    </h3>
+                </div>
+            </div>
+        </div><!-- /container -->
+    </div><!-- /w -->
+
+    <div class="container">
+        <div class="applikationen">
+
+            <!-- APPLIKATION 1 -->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div class="grid mask">
+                    <figure>
+                        <a href="applications/map/">
+                            <img class="img-responsive" src="img/img-01-slider_small.jpg" alt="">
+                        </a>
+                        <figcaption>
+                            <h5>KARTENANSICHT</h5>
+                            <a data-toggle="modal" href="applications/map/" class="btn">Zur Applikation</a>
+                        </figcaption><!-- /figcaption -->
+                    </figure><!-- /figure -->
+                </div><!-- /grid-mask -->
+            </div>
+
+            <!-- APPLIKATION 2 -->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div class="grid mask">
+                    <figure>
+                        <a href="applications/sunburst/">
+                            <img class="img-responsive" src="img/img-03-slider_small.jpg" alt="">
+                        </a>
+                        <figcaption>
+                            <h5>SUNBURST</h5>
+                            <a data-toggle="modal" href="applications/sunburst/" class="btn">Zur Applikation</a>
+                        </figcaption><!-- /figcaption -->
+                    </figure><!-- /figure -->
+                </div><!-- /grid-mask -->
+            </div>
+
+            <!-- APPLIKATION 3 -->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div class="grid mask">
+                    <figure>
+                        <a href="applications/bubbles/">
+                            <img class="img-responsive" src="img/img-02-slider_small.jpg" alt="">
+                        </a>
+                        <figcaption>
+                            <h5>BUBBLES</h5>
+                            <a data-toggle="modal" href="applications/bubbles/" class="btn">Zur Applikation</a>
+                        </figcaption><!-- /figcaption -->
+                    </figure><!-- /figure -->
+                </div><!-- /grid-mask -->
+            </div>
+        </div>
+    </div>
+
+        <!-- ============================================ -->
+            <!-- ============================================ -->
+            <!-- ========== S T O R Y   B E G I N N ========= -->
+            <!-- ============================================ -->
+            <!-- ============================================ -->
+
+            <!-- ========== Einleitung ========== -->
+            <div id="w_story">
+                <div class="container">
+                    <div class="row">
+                        <span class="story_title"><br><h2><b>Bernmobil Störungsdaten – The Story</b></h2></span>
+                        <div class="story_text">
+                            <p>Im Rahmen der Veranstaltung „Open Data“ im Frühlingssemester 2016 haben drei Gruppen mit Bernmobil zusammengearbeitet und die vom Data Coach von Bernmobil zur Verfügung gestellten Daten visualisiert. In den drei Gruppen sind drei verschiedene Apps entstanden, die jeweils einen anderen Visualisierungsfokus auf die Daten legen. Die Daten waren für alle Gruppen dieselben, deshalb haben wir uns auch entschieden, das Web-Interface, in welches wir unsere App eingliedern, einheitlich zu gestalten und damit ein stimmiges Gesamtbild abzuliefern. Die hier folgende Story erklärt einige Hintergründe zu Datengrundlage und stellt danach die einzelnen Applikationen kurz vor. Des weiteren werden Erkenntnisse und mögliche Interpretationen hervorgehoben und beispielhaft erläutert. </p>
+                        </div>
+
+                        <div class="story_text">
+                            <span class="story_title"><br><h2>Datengrundlage</h2></span><p>Das Datenset, welches uns von Bernmobil zur Verfügung gestellt wurde, enthält alle Störungsdaten aus der Bernmobil-eigenen Applikation Brandaktuell. In Brandaktuell pflegen die Fahrdienstleiter in der Betriebszentrale alle Unregelmässigkeiten auf dem Netz in Echtzeit. Insbesondere im Störungsfall erwarten die Fahrgäste aktuelle Informationen über die Fahrplanlage und die Auswirkungen der Störungen. Brandaktuell ist ein Web- basiertes Tool das ermöglicht, sämtliche an der Web Plattform BERNMOBIL angeschlossene Fahrgastinformationssysteme mit aktuellen Störungsinformationen zu versorgen. Dabei liegt ein grosser Fokus darauf, das Erstellen der Meldungen möglichst schnell, fahrgastgerecht und fehlerfrei zu ermöglichen. Brandaktuell bietet die Möglichkeit geplante oder ungeplante Meldung auf Basis von Vorlagen zu erstellen. Diese können auf ausgewählten Medien ausgegeben, überwacht, mutiert und beendet werden. Im Archiv können sämtliche vergangenen Meldungen eingesehen und reaktiviert werden. Dieses Archiv ist genau das Datenset, welches uns Studierenden zur Verfügung gestellt wurde.</p>
+                        </div>
+
+                        <div class="story_img">
+                            <img src="img/img_story/1.png" width="600">
+                            <p><em>Abbildung 1: Ökosystem von Brandaktuell, ausgehend von der Applikation in der Betriebszentrale.</em></p>
+                        </div>
+
+                        <div class="story_text"><p>In Brandaktuell verfasste Störungsmeldungen erscheinen
+                            <ul style="list-style-type:disc">
+                                <li>in den relevanten Smartphone-Apps,</li>
+                                <li>auf den Haltestellenanzeigen als Lauftext, </li>
+                                <li>In den grossen Bahnhöfen auf den Bernmobil-Informationstafeln</li>
+                                <li>und auf der Webseite von Bernmobil. </li>
+                            </ul>
+                            Grosse Störungen, die auch Zugreisende betreffen, werden zudem automatisch auch an die SBB weitergeleitet.</p>
+                        </div>
+
+                        <div class="story_img">
+                            <img src="img/img_story/2.png" width="400">
+                            <p><em>Abbildung 2: Haltestellenanzeige, wo Fahrgäste in Echtzeit über Störungen auf dem Netz informiert werden.</em></p>
+                        </div>
+
+                        <div class="story_text">
+                            <p>Das Datenset, welches uns von Bernmobil zur Verfügung gestellt wurde, enthält alle Störungsdaten aus der Bernmobil-eigenen Applikation Brandaktuell. In Brandaktuell pflegen die Fahrdienstleiter in der Betriebszentrale alle Unregelmässigkeiten auf dem Netz in Echtzeit. Insbesondere im Störungsfall erwarten die Fahrgäste aktuelle Informationen über die Fahrplanlage und die Auswirkungen der Störungen. Brandaktuell ist ein Web- basiertes Tool das ermöglicht, sämtliche an der Web Plattform BERNMOBIL angeschlossene Fahrgastinformationssysteme mit aktuellen Störungsinformationen zu versorgen. Dabei liegt ein grosser Fokus darauf, das Erstellen der Meldungen möglichst schnell, fahrgastgerecht und fehlerfrei zu ermöglichen. Brandaktuell bietet die Möglichkeit geplante oder ungeplante Meldung auf Basis von Vorlagen zu erstellen. Diese können auf ausgewählten Medien ausgegeben, überwacht, mutiert und beendet werden. Im Archiv können sämtliche vergangenen Meldungen eingesehen und reaktiviert werden. Dieses Archiv ist genau das Datenset, welches uns Studierenden zur Verfügung gestellt wurde.</p>
+                        </div>
+
+                        <div class="story_img">
+                            <img src="img/img_story/3.png" border="5" width="700">
+                            <p><em>Abbildung 3: Störungsmeldungen aus Brandaktuell, basierend auf Vorlagen.</em></p>
+                        </div>
+
+                        <div class="story_text">
+                            <span class="story_title"><br><h2>Datenbeschreibung und Datenaufbereitung</h2></span><p> Die Daten aus dem Archiv von Brandaktuell wurden uns als Excel Datei zur Verfügung gestellt. Jede Zeile im File entspricht einer Störung bzw. einer Meldung in Brandaktuell und ist durch diverse Parameter definiert. Für jede Störung liegen verschiedene Meldungstexte mit dem ausformulierten Vorfall vor (kurze und lange Meldung) und danach weitere Daten, wie die betroffenen Linien oder etwa der zeitliche Rahmen jeder Störung (Datum, Start und Ende).</p>
+                        </div>
+
+                        <div class="story_img">
+                            <img src="img/img_story/4.png" width="700">
+                            <p><em>Abbildung 4: Brandaktuell-Archiv als Excel-Auszug</em></p>
+                        </div>
+
+                        <div class="story_text">
+                            <p> Die Daten erstrecken sich über einen Zeitraum vom 20. Dezember 2014 bis zum 8. März 2016 und enthalten rund 1800 Störungsmeldungen. Ende 2014 wurde die Applikation in Betrieb genommen, entsprechend gibt es vor diesem Datum auch keine Daten. Am 8. März 2016 wurde der Archiv-Auszug für uns gemacht, die Daten werden seither aber natürlich weiterhin erhoben. Dies impliziert natürlich eine beschränkte Aussagenkraft für die Daten aus den Jahren 2014 und 2016 und ein Vergleich der Störungen zwischen den Jahren kann erst ab Ende 2016 erfolgen, wenn die Daten aus mindestens zwei Jahren vollständig vorliegen.
+                                <br>
+                                Die Störungen in den uns zur Verfügung gestellten Daten sind, wie oben beschrieben, inhaltlich ausschliesslich über die Meldungstexte beschrieben. Um eine bessere Datenanalyse machen zu können, haben wir deshalb diese Meldungstexte via Text-Mining analysiert und die für jede Störung typischen Elemente extrahiert. Durch diesen Mechanismus haben wir jede Störung einer der folgenden Kategorien zugeordnet: </p>
+
+                            <ul style="list-style-type:disc">
+                                <li>Verkehrsüberlastung</li>
+                                <li>Schneefall </li>
+                                <li>Betriebsstörung</li>
+                                <li>Kundgebung oder Veranstaltung </li>
+                                <li>Verspätungen allgemein (ohne weiter ersichtlichen Grund im Meldungstext)</li>
+                                <li>Verkehrsbehinderung </li>
+                                <li>Unregelmässiger Betrieb</li>
+                                <li>Fahrzeugpanne </li>
+                                <li>Verkehrsunfall</li>
+                                <li>Polizei oder Rettung  </li>
+                                <li>Ersatzfahrten und Kursausfälle</li>
+                                <li>Sonstige Meldungen </li>
+                            </ul>
+
+                            <p>Weiterhin haben wir aus den zur Verfügung stehenden Daten die Dauer jeder Störung extrahiert (Differenz zwischen Ende und Start jeder Störung) und jeder Störung aus dem Datum einen Wochentag zugewiesen.
+                                <br>
+                                Mit diesen angepassten Daten haben wir in Excel eine Voranalyse durchgeführt, um das Potential der Daten zu erkunden. Die Abbildungen 5 und 6 zeigen erste Analysen, auf deren Basis wir uns dann auf die Suche nach einer geeigneten Visualisierungsform gemacht haben. </p>
+                        </div>
+
+                        <div class="story_img">
+                            <img src="img/img_story/5.png" width="400"><br><br>
+                            <img src="img/img_story/6.png" width="600">
+                            <p><em>Abbildungen 5 und 6: Erste Auswertungen der Daten</em></p>
+                        </div>
+
+                        <div class="story_text">
+                            <span class="story_title"><br><h2>Visualisierungen im Rahmen der Veranstaltung „Open Data“</h2></span><p> Im Folgenden werden die drei Applikationen von drei verschiedenen Gruppen kurz vorgestellt. Neben dem grundlegenden Mechanismus der Visualisierung werden spezielle Elemente erläutert, mögliche Interpretationen angetönt und Erkenntnisse gewonnen. In einem letzten Teil folgen Überlegungen, wie die Apps noch weiterentwickelt werden könnten. </p>
+                        </div>
+
+                    </div><!-- /row -->
+                </div><!-- /container -->
+            </div><!-- /w -->
+
+            <!-- =================================== -->
+            <!-- ========== B U B B L E S ========== -->
+            <!-- =================================== -->
+
+            <div id="w_story">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="story_text">
+                            <span class="story_title"><br><h2><b>Bubble Chart (Emanuel Hohn & Thomas Heuberger)</b></h2></span><p>Die erste Applikation visualisiert den Bernmobil Datensatz mithilfe eines Bubble Charts. Die Verwendung eines Bubble Charts eignet sich insbesondere dann, wenn die Daten aus einzelnen Elementen bestehen (die „Bubbles“) und wenn die einzelnen Elemente über ein (idealerweise numerisches) Attribut verfügen, dass die Grösse der Bubble bestimmen kann. Im Falle unserer Visualisierung entspricht jede einzelne Bubble einer Störung (bzw. einer Meldung) aus dem Datensatz. Die Grösse der Bubble ist dabei abhängig von der Störungsdauer: die Störungsdauer in Minuten bestimmt grundsätzlich den Radius der Bubbles, wobei die Zahlen in einem zweiten Schritt aber alle noch so skaliert werden, dass sie auf dem Bildschirm angemessen dargestellt werden können. Als weiteres optisches Merkmal bestimmt die Störungskategorien die Farben der Bubbles, alle Störungen mit gleicher Ursache sind also auch gleich gefärbt. </p>
+                        </div>
+
+                        <div class="story_img">
+                            <img src="img/img_story/7.png" width="900">
+                            <p><em>Abbildung 7: Das sortieren aller Störungen nach Störungsart zeigt zudem wie die einzelnen Kategorien koloriert sind. </em></p>
+                        </div>
+
+
+                        <div class="story_text">
+                            Die Störungen und Bubbles können nach verschiedenen Kategorien gefiltert werden:
+                            <ul style="list-style-type:disc">
+                                <li>Nach Linien</li>
+                                <li>Nach Störungsart </li>
+                                <li>Nach Störungsdauer</li>
+                                <li>Nach Wochentag</li>
+                                <li>Nach Jahren</li>
+                            </ul>
+                            <br>
+                            Ein Filtern nach Linien verteilt alle Bubbles auf die 12 meist frequentierten Linien von Bernmobil. Es ergeben sich verschiedene Interessante Einsichten in dieser Filterung:
+                            <br>
+                            <ul style="list-style-type:disc">
+                                <li>Auf allen Linien machen Kundgebungen und Veranstaltungen einen Grossteil der Störungen aus (ausser auf der Linie 160, welche nicht durch die Stadt führt). </li>
+                                <li>Die Linien 6, 7 und 8 scheinen deutlich überdurchschnittlich oft von Betriebsstörungen (blaue Bubbles) und Fahrzeugpannen (graue Bubbles) betroffen.</li>
+                                <li>Die Buslinien (10, 11 und 20) sind stark von Verkehrsüberlastung betroffen. Die Tramlinien eher selten. </li>
+                            </ul>
+                            <br>
+                            Grundsätzlich kann gesagt werden, je dichter eine Linie befahren ist, desto mehr Störungen treten auf. Tram- und Buslinien weisen eine etwas unterschiedliche Störungsstruktur auf, wie weiter oben schon angetönt.
+                        </div>
+
+                        <div class="story_img">
+                            <img src="img/img_story/8.png" width="900">
+                            <p><em>Abbildung 8: Das sortieren aller Störungen nach Störungsart zeigt zudem wie die einzelnen Kategorien koloriert sind. </em></p>
+                        </div>
+
+
+                    </div>
+                </div><!-- /container -->
+            </div><!-- /w -->
+
+            <!-- ===================================== -->
+            <!-- ========== Erkenntniss 1 ============ -->
+            <!-- ===================================== -->
+
+            <div id="g_story">
+                <div class="container">
+                    <div class="row">
+                        <h2>Interessante Erkenntnis:</h2><span class="story_title"><h2><b>Bern – eine Kundgebungs- und Veranstaltungs-Stadt?</b></h2></span>
+                        <div class="story_text">
+                            <p> Blickt man sich die Störungscharts an, könnte man meinen in Bern steppt der Bär! Ganz im Gegensatz zur weitläufigen Meinung, Bern sei eine langweilige und ruhige Stadt. Anscheinend nicht, was den öffentlichen Verkehr betrifft: ein Grossteil aller Störungen auf dem Liniennetz von Bernmobil machen Kundgebungen und Veranstaltungen aus. Fasnacht, Grandprix, Zibelemärit, Frauenlauf, Tour de Suisse, Museumsnacht, Lichtshows und so weiter – ein Albtraum für jeden Verkehrsleiter.
+                                <br><br>
+                                Etwas Entlastung für die Damen und Herren in der Betriebszentrale von Bernmobil bringt die Linie 160. Die einzige Linie, auf der keine einzige Veranstaltung stattgefunden hat. Das verwundert auch nicht, denn die Linie 160 fährt von Konolfingen nach Belp und gar nicht durch die Innenstadt. Richtung Emmental gilt die stereotypisch-romantische Vorstellung von Bern vielleicht halt noch eher und der steppende Bär fährt halt doch noch lieber städtisch, und Tram.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div><!-- /container -->
+
+            <!-- ===================================== -->
+
+            <div id="w_story">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="story_text">
+                            <p>Ein Filtern nach Störungsart bestätigt die Erkenntnis von oben, nämlich, dass Kundgebungen und Veranstaltungen den Hauptanteil aller Störungen ausmachen. In dieser Ansicht wird zudem auch klar, dass Störungen wie Verkehrsüberlastungen, Fahrzeugpannen, Betriebsstörungen und Verkehrsunfälle zwar sehr häufig auftreten, in aller Regel aber von relativ kurzer Dauer sind. Andere Kategorien wie Bauarbeiten und Ersatzfahrten sind demgegenüber eher selten, dafür meist von langer Dauer. </p>
+                        </div>
+
+                        <div class="story_img">
+                            <img src="img/img_story/9.png" width="500">
+                            <p><em>Abbildung 9: Das Tooltip gibt weitere detaillierte Informationen über jede Störung. Hier sorgt beispielsweise die Berner Fasnacht für eine sehr lange andauernde Betriebseinschränkung auf der Linie 12. </em></p>
+                        </div>
+
+                        <div class="story_text">
+                            <p>Visualisiert die Betrachterin die Daten nach Störungsdauer werden die Bubbles nach ihrer Grösse in vier verschiedene Kategorien aufgeteilt. Man sieht, dass die meisten Störungen weniger als 12 Stunden dauern und sogar eigentlich innerhalb von zwei Stunden wieder behoben werden können.  Zwischen 2 und 12 Stunden finden sich nämlich grösstenteils die Kundgebungen und Veranstaltungen und nur wenige „klassische“ Störungen. </p>
+                        </div>
+
+                        <div class="story_img">
+                            <img src="img/img_story/10.png" width="900">
+                            <p><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Abbildung 10: Die Ansicht nach Störungsdauer zeigt das Störungsvolumen verteilt auf vier Kategorien. Abstrahiert man von den Kundgebungen und Veranstaltungen, so können die meisten Störungen innerhalb von 2 Stunden behoben werden. </em></p>
+                        </div>
+
+                        <div class="story_text">
+                            <p>In der Ansicht nach Wochentag sieht die Betrachterin, dass die Störungen mehr oder weniger gleichmässig auf die einzelnen Werktage verteilt sind. Der Montag ist jedoch tendenziell etwas anfälliger für Störungen. Kundgebungen und Veranstaltungen finden vor allem von Mittwoch bis Sonntag statt, mit einem klaren Höchststand am Wochenende.
+                                <br>
+                                Am Wochenende finden die meisten Kundgebungen und Veranstaltungen statt. An der Grösse der Bubbles sieht man jedoch auch, dass die grösseren Störungen tendenziell auch am Wochenende stattfinden. Dies deutet darauf hin, dass die Interventionszeiten zur Störungsbehebung am Wochenende eingeschränkt sein könnten. Zudem werden grössere Vorhaben, z.B. Bauarbeiten, welche zu Umleitungen führen, eher auf das Wochenende (inkl. Montag) gelegt. </p>
+                        </div>
+
+                    </div>
+                </div><!-- /container -->
+            </div><!-- /w -->
+
+
+            <!-- ===================================== -->
+            <!-- ========== Erkenntniss 2 ============ -->
+            <!-- ===================================== -->
+
+            <div id="g_story">
+                <div class="container">
+                    <div class="row">
+                        <h2>Interessante Erkenntnis:</h2><span class="story_title"><h2><b>Scheefall in Bern</b></h2></span>
+                        <div class="story_text">
+                            <p> Allgemein fällt auf, dass auf dem Liniennetz von Bernmobil der Schneefall kaum ein Problem darstellt, denn es gibt nur wenige Störungen, die auf Schneefall zurückzuführen sind. Betrachtet man aber die Ansichten nach Wochentag, so könnte man meinen, dass alle Schneeprobleme fast ausschliesslich auf das Wochenende und den Montag fallen, vom Dienstag bis Freitag jedoch keine Probleme bestehen. Macht das Schneeräumungsteam von Bernmobil etwa gerne ein verlängertes Wochenende? Oder hat Bernmobil an Wochenenden und am Montagmorgen jeweils ein organisatorisches Problem bei der Schneeräumung?
+
+                                <br><br>
+                                Keinesfalls! Eine genauere Analyse zeigt: das ist purer Zufall. Die starken Schneetage sind zufälligerweise einfach auf Montage und Samstage gefallen. Vermutlich hätten die Schneemengen dieser Tage auch an anderen Tagen grosse netzweite Auswirkungen gehabt. Bernmobil scheint die Schneeräumung gut im Griff zu haben, der milde Winter im 2015 hat in dieser Hinsicht aber mit Sicherheit auch eine Rolle gespielt. </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div><!-- /container -->
+
+            <!-- ===================================== -->
+
+            <div id="w_story">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="story_img">
+                            <img src="img/img_story/11.png" width="900">
+                            <p><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Abbildung 11: Die Ansicht nach Wochentag zeigt eine relativ gleichmässige Verteilung der Störungen auf die Werktage. Am Wochenende gibt es deutlich mehr Störungen, was insbesondere auf Kundgebungen und Veranstaltungen zurückzuführen ist. </em></p>
+                        </div>
+
+                        <div class="story_text">
+                            <p>In der letzten Ansicht kann die Betrachterin die Störungen nach Jahren anzeigen lassen. Diese Ansicht ist aber mehr der Vollständigkeit halber eingefügt und wird erst interessant, wenn die Daten auch für mehrere Jahre vorliegen. Der aktuelle Datensatz enthält Störungen vom Dezember 2014 bis zum März 2016, ein Vergleich über die Jahre ist entsprechend nicht möglich. </p>
+                        </div>
+
+                        <div class="story_text">
+                            <span class="story_title"><h2>Möglichkeiten zur Weiterentwicklung</h2></span><p>Der Bubble Chart in seiner jetzigen Form lässt schon einige Erkenntnisse zu. Nichtsdestotrotz gibt es Aspekte, welche in der App noch Fehlen oder Features, welche die App noch vervollständigen könnten.</p>
+                            <ul style="list-style-type:disc">
+                                <li>Einzelne Kategorien ausblenden: wie im Detail besprochen machen Kundgebungen und Veranstaltungen einen Grossteil der einzelnen Meldungen aus. Man kann sich diese Bubbles zwar wegdenken, schöner wäre es aber, wenn man direkt nur nach einzelnen Störungsarten filtern könnte und nur die gewünschten Kategorien anzeigen lassen könnte. So könnte man z.B. alle Ansichten durchgehen und dabei die Kundgebungen und Veranstaltungen ausgeblendet lassen. Oder aber ausschliesslich die auf Bauarbeiten zurückzuführenden Störungen betrachten. </li>
+                                <li>Benutzerdefinierte Kolorierung: aktuell sind die Bubbles nach Kategorie eingefärbt. Für einige Ansichten macht das durchaus Sinn, es könnte aber auch spannend sein, sich die Bubbles nach der Störungsdauer oder nach der Linie einzufärben. Eine zukünftige Version der App würde der Benutzerin die Möglichkeit lassen, die Bubbles nach ihrem Sinn einzufärben. </li>
+                                <li>Filterung nach Monaten und Jahren: Nutzenstiften wäre, wenn man sich die einzelnen Ansichten nur für gewisse Jahre oder Monate anzeigen lassen könnte. So könnte man die Störungen nach Wochentag z.B. nur für die Sommermonate anzeigen lassen, und dies auch noch über mehrere Jahre. Allerdings macht diese Funktion mit dem aktuellen Datensatz noch keinen Sinn, denn dafür müssten mindestens zwei Jahre vollständig vorhanden sein. </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div><!-- /container -->
+            </div><!-- /w -->
+
+            <!-- ===================================== -->
+            <!-- ========== S U N B U R S T ========== -->
+            <!-- ===================================== -->
+
+            <div id="w_story">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="story_text">
+                            <span class="story_title"><br><h2><b>Sunburst (Jonas Brüniger & Silvan Schwegler)</b></h2></span><p>Die zweite Applikation visualisiert den Bernmobil Datensatz mithilfe eines Sunburst Charts. Ein Sunburst Chart kombiniert im Wesentlichen mehrere (gestapelte) Kuchendiagramme und eignet sich damit sehr gut, um komplexe hierarchische und relationale Datensets dynamisch zu visualisieren.
+                            <br><br>
+                            Der Sunburst besteht aus vier Kreisen, welche die Informationen aus den Daten hierarchisch darstellen: Jahr, Monat, Störungsart und betroffene Linie. Die Betrachterin kann, ausgehend von Jahr, die verschiedenen Hierarchiestufen durchgehen und dabei diejenigen Parameter, die von Interesse sind, genauer analysieren und vergleichen. </p>
+                        </div>
+
+                        <div class="story_img">
+                            <img src="img/img_story/12.png" width="500">
+                            <p><em>Abbildung 12: Sunburst - Kundgebungen und Veranstaltungen, welche im Oktober die Linie 10 betrafen, machten im Jahr 2015 rund 1% aller Störungen aus.  </em></p>
+                        </div>
+
+                        <div class="story_text">
+                            <p>Im Uhrzeigersinn wird jeweils absteigend die relative Grösse der Blöcke unterschieden. Auf den ersten Blick sieht die Betrachterin, dass die Daten des Jahres 2015 mehr als dreiviertel der Gesamtdaten ausmachen. Das hängt damit zusammen, dass sich die Daten, wie weiter oben erwähnt, nur von Dezember 2014 bis März 2016 erstrecken. Dies macht einen direkten Vergleich der Jahre schwierig, im Navigationsmenü der Applikation kann zu diesem Zweck aber nach Jahren gefiltert werden.
+                                <br><br>
+                                Betrachten wir beispielsweise das Jahr 2015, ergeben sich auf den ersten Blick interessante Erkenntnisse. 14% der Störungen, und damit relativ die Meisten, haben im Oktober stattgefunden. Demgegenüber am Wenigsten im Juli, mit nur 3.5% der Störungen. Die Streuung über die Monate scheint also beträchtlich zu sein. Ein erster Verdacht, dass im Winter generell mehr Störungen zu verzeichnen sind, kann nicht bestätigt werden, denn jeweils rund ein Viertel aller Störungen im 2015 haben in den Monaten Oktober und November, oder aber in den Monaten Mai und Juni stattgefunden. </p>
+                        </div>
+
+
+                        <div class="story_img">
+                            <img src="img/img_story/13_1.png" width="400">&nbsp;<img src="img/img_story/13_2.png" width="400">
+                            <p><em>Abbildung 13: Vergleich der Störungen pro Monat im Jahr 2015.</em></p>
+                        </div>
+
+                        <div class="story_text">
+                            <p>Eine Analyse des dritten, orangen Kreises ergibt, dass fast im ganzen Jahr die Kundgebungen und Veranstaltungen diejenige Störungskategorie darstellen, die am meisten Störungen verursachen. Drei Ausnahmen sind die Monate Dezember und Januar, wo Fahrzeugpannen, Verkehrsunfälle und Verkehrsüberlastung das Störungsbild dominieren. Dies ist aber insofern zu relativieren, als in den Wintermonaten sicherlich weniger Kundgebungen stattfinden.
+                                <br><br>
+                                Welche Massnahmen könnte man aus der Visualisierung ableiten? Bei Kundgebungen und Veranstaltungen ist es wohl schwer, die Kundenauswirkungen zu reduzieren, denn je nach Grösse einer Veranstaltung müssen ganze Linien unterbrochen werden. Lässt man die Kundgebungskategorie aussen vor, so dominieren über alle Monate vor allem Verkehrsüberlastungen und Fahrzeugpannen das Störungsbild. Beides sind Störungskategorien, wo mit geeigneten Massnahmen das Störungsvolumen sicherlich abgebaut werden könnte. Eine Reduktion der Verkehrsüberlastung als Störungsursache ist dabei mehr ein politisches Problem, moderne Verkehrsinfrastruktur, die zu Entlastungen in den Hauptverkehrszeiten führt oder aber eine separate Linienführung für den öffentlichen Verkehr könnten hier Massnahmen mit grosser Kundenauswirkungen sein, hat die Störungskategorie Verkehrsüberlastung im Jahre 2015 doch rund 11% aller Störungen auf dem Bernmobil Netz ausgemacht. Eine Reduktion der Fahrzeugpannen wäre dem gegenüber in der Verantwortung von Bernmobil. Rund 14% aller Störungen im Jahr 2015 waren auf eine Fahrzeugpanne zurückzuführen. Massnahmen zur schnelleren Störungsbehebung (beispielsweise ausgebaute Pikett-Dienste oder Schulung der Chauffeure) könnten entsprechend auch eine hohe Kundenauswirkung haben. </p>
+                        </div>
+
+
+                    </div>
+                </div><!-- /container -->
+            </div><!-- /w -->
+
+
+
+            <!-- =============================================== -->
+            <!-- ========== K A R T E N A N S I C H T ========== -->
+            <!-- =============================================== -->
+
+            <div id="w_story">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="story_text">
+                            <span class="story_title"><br><h2><b>Kartenansicht (Mario Kaufmann & Silas Berger)</b></h2></span><p>Die dritte Applikation visualisiert das Datenset von Bernmobil im geographischen Kontext. Alle Tram- und Buslinien sind auf einer Stadtkarte von Bern ersichtlich. Das dynamische Tooltip neben der Karte gibt detaillierte Informationen jeder Linie, wenn die Benutzerin mit dem Mauszeiger darüberfährt.
+                            <br><br>
+                            Die Stärke und Farbe der Linien gibt der Betrachterin Informationen über die Störungen pro Linie. Je dicker und je stärker rot eingefärbt, umso mehr Störungen weist eine Linie auf. Umgekehrt gibt es auf einer gelben und dünnen Linie nur selten Störungen. </p>
+                        </div>
+
+                        <div class="story_img">
+                            <img src="img/img_story/14.png" width="800">
+                            <p><em>Abbildung 14: Kartenansicht der Berner Innenstadt mit allen Linien des Bernmobil-Netzes. </em></p>
+                        </div>
+
+                        <div class="story_text">
+                            <p>Extensive Filtermöglichkeiten unter der Kartenansicht lassen die Betrachterin die Anzeige nach ihren Wünschen anpassen. Weiter oben, in der Sunburst Applikation von Jonas Brüniger und  Silvan Schwegler haben wir gesehen, dass Verkehrsüberlastungen und Fahrzeugpannen das Störungsbild dominieren (mit rund 25% aller Störungen), wenn man von Kundgebungen und Veranstaltungen absieht. Die Kartenansicht erlaubt uns nun, diesen Umstand nicht mehr nur aus zeitlicher, sondern auch aus geographischer perspektive anzuschauen. </p>
+                        </div>
+
+                        <div class="story_img">
+                            <img src="img/img_story/15_1.png" width="400">&nbsp;<img src="img/img_story/15_2.png" width="520">
+                            <p><em>Abbildung 15: Einschränkung der Kartenansicht nach bestimmten Störungskategorien, hier nach Verkehrsunfällen und Verkehrsüberlastung. </em></p>
+                        </div>
+
+                        <div class="story_text">
+                            <p>So können wir erkennen, dass Verkehrsüberlastungen und Fahrzeugpannen vor allem und sehr stark die Linie 10 von Köniz Schliern bis Ostermundigen betreffen. Danach kommt der 20er Bus (Bahnhof – Wankdorf Bahnhof). Die beiden Buslinien haben sehr stark mit Verkehrsüberlastung zu kämpfen, nicht verwunderlich, denn die beiden extrem stark frequentierten Buslinien fahren durch Gebiete, die auch für den Feierabend-Autoverkehr sehr beliebt sind. <br>
+                                Verkehrsüberlastung ist für die Tramlinien 6,7,8 und 9 etwas weniger ein Problem. Allerdings kämpfen diese Linien mit starken Auswirkungen von Verkehrsunfällen. Alle vier Tramlinien frequentieren die Hauptverkehrsachse durch die Innenstadt, von Hirschengraben bis zum Zytglogge. Es ist denkbar, dass ursprüngliche nur einzelne Linien betreffende Vorfälle schnell Kettenreaktionen zur Folge haben, so dass auch die anderen Haupttramlinien betroffen werden.
+
+                                <br><br>
+                                Wie oben angetönt, der grosse Vorteil einer solchen Kartenansicht besteht darin, dass die geographischen Zusammenhänge der einzelnen Linien aufgedeckt werden. Störungsauswirkungen können aus einer Perspektive analysiert werden, welche die einzelnen Linien in einen Zusammenhang bringt.</p>
+                        </div>
+
+                        <div class="story_text">
+                            <span class="story_title"><br><h2>Möglichkeiten zur Weiterentwicklung</h2></span><p>Insbesondere bei der Kartenansicht wäre es sehr interessant, einen Live-Feed von Bernmobil einzugliedern. So könnten Störungen jederzeit Live mit genauem Ort auf der Karte angezeigt werden, allfällige Auswirkungen auf andere Linien erkannt werden und ggf. sogar auch Umleitungen oder Unterbrüche kenntlich gemacht werden. </p>
+                            <br>
+                            <br>
+
+                        </div>
+                    </div><!-- /container -->
+                </div><!-- /w -->
+
+                <!-- ============================ -->
+                <!-- ========== CREDITS ========= -->
+                <!-- ============================ -->
+
+                <div id="c">
+                    <div class="container">
+                        <span class="story_title"><br><h2><b>Story von Emanuel Hohn</b></h2></span><p>Die vorliegende Story zu den Apps wurde von mir als Master-Zusatzleistung verfasst, da ich als einziger der sechs Studenten aus drei Gruppen auf Masterstufe studiere. Der Fokus der Story liegt entsprechend auch auf der Applikation, an der ich mitgewirkt habe (Bubble Chart). Der Vollständigkeit halber und für das Gesamtbild habe ich für die anderen zwei Visualisierungen ebenfalls eine kurze Story geschrieben. Was ich dort schreibe ist meine eigene Meinung und muss nicht zwingend mit der Meinung der Entwickler übereinstimmen. </p>
+                    </div>
+                </div>
+
+                <!-- ======================================== -->
+                <!-- ======================================== -->
+                <!-- ========== S T O R Y   E N D E ========= -->
+                <!-- ======================================== -->
+                <!-- ======================================== -->
+
+
+
+</div>
+
+
+<!--===== FOOTER =====-->
+
+<div id="footer">
+    <div class="container">
+        <div class="text-center">
+            <a href="https://twitter.com/BERNMOBIL"><img src="social/svg/Normal/03-twitter.svg"></a>
+            <a href="https://facebook.com/bernmobil"><img src="social/svg/Normal/06-facebook.svg"></a>
+        </div>
+    </div>
+</div>
+
+
+<!-- ===== SCRIPTS =====-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/modernizr.custom.js"></script>
+</body>
+</html>

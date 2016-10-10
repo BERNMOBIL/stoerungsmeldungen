@@ -1,0 +1,4 @@
+Mario Kaufmann und Silas Berger:
+
+Visualisierung der Störungsdaten von Bernmobil als dynamische Strassenkarte
+Ziel dieser App ist die Darstellung aller ÖV-Linien von Bernmobil in Abhängigkeit ihrer relativen Störungsanfälligkeit: Auf welchen Linien gibt es besonders viele Störungen, auf welchen nur wenige? Gibt es dabei Unterschiede zwischen verschiedenen Arten von Störungen?

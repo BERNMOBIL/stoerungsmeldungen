@@ -1,0 +1,665 @@
+year;month;incident;tour,value
+2014;Dezember;Fahrzeugpanne;Linie 7,1
+2014;Dezember;Schneefall/Eis;Linie 10,3
+2014;Dezember;Schneefall/Eis;Linie 11,2
+2014;Dezember;Verkehrsüberlastung;Linie 11,2
+2014;Dezember;Schneefall/Eis;Linie 12,14
+2014;Dezember;Schneefall/Eis;Linie 16,1
+2014;Dezember;Schneefall/Eis;Linie 17,1
+2014;Dezember;Verkehrsunfall;Linie 17,1
+2014;Dezember;Fahrzeugpanne;Linie 19,1
+2014;Dezember;Schneefall/Eis;Linie 19,3
+2014;Dezember;Schneefall/Eis;Linie 20,10
+2014;Dezember;Schneefall/Eis;Linie 21,2
+2014;Dezember;Schneefall/Eis;Linie 26,3
+2014;Dezember;Fahrzeugpanne;Linie 27,1
+2014;Dezember;Schneefall/Eis;Linie 27,1
+2014;Dezember;Betriebsstörung;Linie 28,2
+2014;Dezember;Schneefall/Eis;Linie 28,3
+2014;Dezember;Schneefall/Eis;Linie 29,1
+2014;Dezember;Schneefall/Eis;Linie 30,1
+2014;Dezember;Betriebsstörung;Linie 31,1
+2015;Januar;Fahrzeugpanne;Linie 3,1
+2015;März;Fahrzeugpanne;Linie 3,1
+2015;März;Unregelm. Betr. u. Uml.;Linie 3,1
+2015;April;Verspätungen Allgemein;Linie 3,2
+2015;Mai;Kundgebung/Veranstalt.;Linie 3,2
+2015;Mai;Blaulichtorganisationen;Linie 3,2
+2015;Juni;Fahrzeugpanne;Linie 3,2
+2015;Juni;Kundgebung/Veranstalt.;Linie 3,7
+2015;Juli;Betriebsstörung;Linie 3,1
+2015;Juli;Fahrzeugpanne;Linie 3,3
+2015;August;Fahrzeugpanne;Linie 3,1
+2015;September;Ersatzfahrten und Kursausfälle;Linie 3,1
+2015;September;Kundgebung/Veranstalt.;Linie 3,1
+2015;Oktober;Betriebsstörung;Linie 3,1
+2015;Oktober;Kundgebung/Veranstalt.;Linie 3,5
+2015;November;Sonstige Störungen;Linie 3,1
+2015;November;Verkehrsbehinderung;Linie 3,1
+2015;Dezember;Sonstige Störungen;Linie 3,1
+2015;Dezember;Verkehrsunfall;Linie 3,3
+2015;Dezember;Verspätungen Allgemein;Linie 3,1
+2015;Januar;Fahrzeugpanne;Linie 6,6
+2015;Januar;Verkehrsüberlastung;Linie 6,1
+2015;Februar;Betriebsstörung;Linie 6,2
+2015;Februar;Kundgebung/Veranstalt.;Linie 6,2
+2015;Februar;Verkehrsüberlastung;Linie 6,1
+2015;Februar;Verspätungen Allgemein;Linie 6,1
+2015;März;Fahrzeugpanne;Linie 6,3
+2015;März;Kundgebung/Veranstalt.;Linie 6,2
+2015;März;Blaulichtorganisationen;Linie 6,2
+2015;März;Unregelm. Betr. u. Uml.;Linie 6,1
+2015;März;Verkehrsunfall;Linie 6,2
+2015;März;Verspätungen Allgemein;Linie 6,1
+2015;April;Fahrzeugpanne;Linie 6,1
+2015;April;Kundgebung/Veranstalt.;Linie 6,1
+2015;April;Verkehrsüberlastung;Linie 6,3
+2015;April;Verspätungen Allgemein;Linie 6,2
+2015;Mai;Betriebsstörung;Linie 6,2
+2015;Mai;Fahrzeugpanne;Linie 6,4
+2015;Mai;Kundgebung/Veranstalt.;Linie 6,5
+2015;Mai;Unregelm. Betr. u. Uml.;Linie 6,1
+2015;Mai;Verkehrsüberlastung;Linie 6,1
+2015;Mai;Verkehrsunfall;Linie 6,1
+2015;Mai;Verspätungen Allgemein;Linie 6,1
+2015;Juni;Betriebsstörung;Linie 6,1
+2015;Juni;Fahrzeugpanne;Linie 6,4
+2015;Juni;Kundgebung/Veranstalt.;Linie 6,11
+2015;Juni;Blaulichtorganisationen;Linie 6,1
+2015;Juni;Verkehrsüberlastung;Linie 6,1
+2015;Juni;Verkehrsunfall;Linie 6,1
+2015;Juli;Betriebsstörung;Linie 6,2
+2015;Juli;Fahrzeugpanne;Linie 6,7
+2015;Juli;Kundgebung/Veranstalt.;Linie 6,1
+2015;Juli;Verspätungen Allgemein;Linie 6,2
+2015;August;Fahrzeugpanne;Linie 6,4
+2015;August;Kundgebung/Veranstalt.;Linie 6,2
+2015;August;Verkehrsüberlastung;Linie 6,3
+2015;September;Kundgebung/Veranstalt.;Linie 6,1
+2015;September;Unregelm. Betr. u. Uml.;Linie 6,1
+2015;September;Verkehrsunfall;Linie 6,5
+2015;Oktober;Betriebsstörung;Linie 6,6
+2015;Oktober;Fahrzeugpanne;Linie 6,1
+2015;Oktober;Kundgebung/Veranstalt.;Linie 6,6
+2015;Oktober;Sonstige Störungen;Linie 6,1
+2015;Oktober;Verkehrsüberlastung;Linie 6,1
+2015;November;Fahrzeugpanne;Linie 6,2
+2015;November;Kundgebung/Veranstalt.;Linie 6,4
+2015;November;Sonstige Störungen;Linie 6,1
+2015;November;Verspätungen Allgemein;Linie 6,3
+2015;Dezember;Fahrzeugpanne;Linie 6,5
+2015;Dezember;Kundgebung/Veranstalt.;Linie 6,1
+2015;Dezember;Blaulichtorganisationen;Linie 6,1
+2015;Dezember;Verkehrsunfall;Linie 6,4
+2015;Dezember;Verspätungen Allgemein;Linie 6,1
+2015;Januar;Fahrzeugpanne;Linie 7,6
+2015;Januar;Verspätungen Allgemein;Linie 7,3
+2015;Februar;Betriebsstörung;Linie 7,3
+2015;Februar;Fahrzeugpanne;Linie 7,5
+2015;Februar;Kundgebung/Veranstalt.;Linie 7,1
+2015;Februar;Verspätungen Allgemein;Linie 7,1
+2015;März;Betriebsstörung;Linie 7,1
+2015;März;Fahrzeugpanne;Linie 7,2
+2015;März;Kundgebung/Veranstalt.;Linie 7,2
+2015;März;Blaulichtorganisationen;Linie 7,1
+2015;März;Unregelm. Betr. u. Uml.;Linie 7,1
+2015;April;Fahrzeugpanne;Linie 7,3
+2015;April;Kundgebung/Veranstalt.;Linie 7,1
+2015;April;Verkehrsüberlastung;Linie 7,2
+2015;April;Verkehrsunfall;Linie 7,1
+2015;April;Verspätungen Allgemein;Linie 7,2
+2015;Mai;Betriebsstörung;Linie 7,2
+2015;Mai;Ersatzfahrten und Kursausfälle;Linie 7,1
+2015;Mai;Fahrzeugpanne;Linie 7,1
+2015;Mai;Kundgebung/Veranstalt.;Linie 7,4
+2015;Mai;Unregelm. Betr. u. Uml.;Linie 7,1
+2015;Mai;Verkehrsüberlastung;Linie 7,1
+2015;Mai;Verkehrsunfall;Linie 7,1
+2015;Mai;Verspätungen Allgemein;Linie 7,1
+2015;Juni;Betriebsstörung;Linie 7,1
+2015;Juni;Ersatzfahrten und Kursausfälle;Linie 7,1
+2015;Juni;Fahrzeugpanne;Linie 7,4
+2015;Juni;Kundgebung/Veranstalt.;Linie 7,9
+2015;Juni;Blaulichtorganisationen;Linie 7,1
+2015;Juni;Sonstige Störungen;Linie 7,2
+2015;Juni;Unregelm. Betr. u. Uml.;Linie 7,1
+2015;Juni;Verkehrsunfall;Linie 7,1
+2015;Juli;Betriebsstörung;Linie 7,4
+2015;Juli;Kundgebung/Veranstalt.;Linie 7,1
+2015;August;Fahrzeugpanne;Linie 7,3
+2015;August;Kundgebung/Veranstalt.;Linie 7,2
+2015;August;Verkehrsüberlastung;Linie 7,3
+2015;September;Bauarbeiten;Linie 7,3
+2015;September;Kundgebung/Veranstalt.;Linie 7,1
+2015;September;Sonstige Störungen;Linie 7,2
+2015;September;Unregelm. Betr. u. Uml.;Linie 7,1
+2015;September;Verkehrsunfall;Linie 7,2
+2015;Oktober;Betriebsstörung;Linie 7,3
+2015;Oktober;Fahrzeugpanne;Linie 7,3
+2015;Oktober;Kundgebung/Veranstalt.;Linie 7,7
+2015;Oktober;Sonstige Störungen;Linie 7,1
+2015;Oktober;Verspätungen Allgemein;Linie 7,2
+2015;November;Betriebsstörung;Linie 7,2
+2015;November;Fahrzeugpanne;Linie 7,2
+2015;November;Kundgebung/Veranstalt.;Linie 7,4
+2015;November;Sonstige Störungen;Linie 7,1
+2015;November;Verkehrsunfall;Linie 7,3
+2015;Dezember;Fahrzeugpanne;Linie 7,3
+2015;Dezember;Kundgebung/Veranstalt.;Linie 7,1
+2015;Dezember;Blaulichtorganisationen;Linie 7,1
+2015;Dezember;Verkehrsunfall;Linie 7,8
+2015;Dezember;Verspätungen Allgemein;Linie 7,1
+2015;Januar;Fahrzeugpanne;Linie 8,4
+2015;Januar;Verkehrsüberlastung;Linie 8,2
+2015;Januar;Verspätungen Allgemein;Linie 8,2
+2015;Februar;Betriebsstörung;Linie 8,3
+2015;Februar;Fahrzeugpanne;Linie 8,6
+2015;Februar;Kundgebung/Veranstalt.;Linie 8,2
+2015;Februar;Verspätungen Allgemein;Linie 8,2
+2015;März;Fahrzeugpanne;Linie 8,2
+2015;März;Kundgebung/Veranstalt.;Linie 8,2
+2015;März;Blaulichtorganisationen;Linie 8,1
+2015;März;Unregelm. Betr. u. Uml.;Linie 8,1
+2015;April;Betriebsstörung;Linie 8,1
+2015;April;Kundgebung/Veranstalt.;Linie 8,1
+2015;April;Verkehrsüberlastung;Linie 8,2
+2015;April;Verspätungen Allgemein;Linie 8,2
+2015;Mai;Betriebsstörung;Linie 8,2
+2015;Mai;Fahrzeugpanne;Linie 8,2
+2015;Mai;Kundgebung/Veranstalt.;Linie 8,4
+2015;Mai;Unregelm. Betr. u. Uml.;Linie 8,1
+2015;Mai;Verkehrsüberlastung;Linie 8,1
+2015;Mai;Verkehrsunfall;Linie 8,1
+2015;Mai;Verspätungen Allgemein;Linie 8,1
+2015;Juni;Betriebsstörung;Linie 8,1
+2015;Juni;Fahrzeugpanne;Linie 8,4
+2015;Juni;Kundgebung/Veranstalt.;Linie 8,12
+2015;Juni;Blaulichtorganisationen;Linie 8,1
+2015;Juni;Unregelm. Betr. u. Uml.;Linie 8,1
+2015;Juni;Verkehrsunfall;Linie 8,1
+2015;Juli;Bauarbeiten;Linie 8,1
+2015;Juli;Betriebsstörung;Linie 8,4
+2015;Juli;Fahrzeugpanne;Linie 8,2
+2015;Juli;Kundgebung/Veranstalt.;Linie 8,1
+2015;August;Fahrzeugpanne;Linie 8,3
+2015;August;Kundgebung/Veranstalt.;Linie 8,2
+2015;August;Verkehrsüberlastung;Linie 8,3
+2015;August;Verkehrsunfall;Linie 8,1
+2015;September;Kundgebung/Veranstalt.;Linie 8,1
+2015;September;Unregelm. Betr. u. Uml.;Linie 8,1
+2015;September;Verkehrsunfall;Linie 8,3
+2015;Oktober;Betriebsstörung;Linie 8,3
+2015;Oktober;Fahrzeugpanne;Linie 8,2
+2015;Oktober;Kundgebung/Veranstalt.;Linie 8,12
+2015;November;Betriebsstörung;Linie 8,2
+2015;November;Fahrzeugpanne;Linie 8,3
+2015;November;Kundgebung/Veranstalt.;Linie 8,4
+2015;November;Sonstige Störungen;Linie 8,1
+2015;November;Verkehrsunfall;Linie 8,3
+2015;Dezember;Fahrzeugpanne;Linie 8,3
+2015;Dezember;Kundgebung/Veranstalt.;Linie 8,1
+2015;Dezember;Blaulichtorganisationen;Linie 8,1
+2015;Dezember;Verkehrsunfall;Linie 8,9
+2015;Dezember;Verspätungen Allgemein;Linie 8,2
+2015;Januar;Fahrzeugpanne;Linie 9,4
+2015;Januar;Kundgebung/Veranstalt.;Linie 9,1
+2015;Februar;Ersatzfahrten und Kursausfälle;Linie 9,2
+2015;Februar;Kundgebung/Veranstalt.;Linie 9,12
+2015;Februar;Verkehrsbehinderung;Linie 9,3
+2015;Februar;Verkehrsüberlastung;Linie 9,2
+2015;Februar;Verkehrsunfall;Linie 9,1
+2015;Februar;Verspätungen Allgemein;Linie 9,2
+2015;März;Betriebsstörung;Linie 9,1
+2015;März;Ersatzfahrten und Kursausfälle;Linie 9,2
+2015;März;Fahrzeugpanne;Linie 9,2
+2015;März;Kundgebung/Veranstalt.;Linie 9,5
+2015;März;Blaulichtorganisationen;Linie 9,2
+2015;März;Unregelm. Betr. u. Uml.;Linie 9,1
+2015;April;Fahrzeugpanne;Linie 9,6
+2015;April;Kundgebung/Veranstalt.;Linie 9,5
+2015;April;Unregelm. Betr. u. Uml.;Linie 9,1
+2015;April;Verkehrsunfall;Linie 9,8
+2015;April;Verspätungen Allgemein;Linie 9,3
+2015;Mai;Betriebsstörung;Linie 9,1
+2015;Mai;Fahrzeugpanne;Linie 9,1
+2015;Mai;Kundgebung/Veranstalt.;Linie 9,8
+2015;Mai;Unregelm. Betr. u. Uml.;Linie 9,1
+2015;Mai;Verkehrsunfall;Linie 9,6
+2015;Mai;Verspätungen Allgemein;Linie 9,2
+2015;Juni;Kundgebung/Veranstalt.;Linie 9,13
+2015;Juni;Blaulichtorganisationen;Linie 9,1
+2015;Juli;Betriebsstörung;Linie 9,2
+2015;Juli;Fahrzeugpanne;Linie 9,1
+2015;Juli;Kundgebung/Veranstalt.;Linie 9,4
+2015;Juli;Sonstige Störungen;Linie 9,1
+2015;Juli;Verkehrsüberlastung;Linie 9,1
+2015;Juli;Verkehrsunfall;Linie 9,1
+2015;August;Fahrzeugpanne;Linie 9,5
+2015;August;Kundgebung/Veranstalt.;Linie 9,7
+2015;August;Verkehrsüberlastung;Linie 9,2
+2015;September;Ersatzfahrten und Kursausfälle;Linie 9,2
+2015;September;Kundgebung/Veranstalt.;Linie 9,3
+2015;September;Sonstige Störungen;Linie 9,2
+2015;Oktober;Fahrzeugpanne;Linie 9,4
+2015;Oktober;Kundgebung/Veranstalt.;Linie 9,9
+2015;Oktober;Verkehrsüberlastung;Linie 9,1
+2015;Oktober;Verspätungen Allgemein;Linie 9,1
+2015;November;Betriebsstörung;Linie 9,1
+2015;November;Fahrzeugpanne;Linie 9,1
+2015;November;Kundgebung/Veranstalt.;Linie 9,7
+2015;November;Sonstige Störungen;Linie 9,1
+2015;November;Verkehrsunfall;Linie 9,2
+2015;Dezember;Fahrzeugpanne;Linie 9,2
+2015;Dezember;Kundgebung/Veranstalt.;Linie 9,1
+2015;Dezember;Verkehrsüberlastung;Linie 9,1
+2015;Januar;Kundgebung/Veranstalt.;Linie 10,1
+2015;Januar;Blaulichtorganisationen;Linie 10,1
+2015;Januar;Verkehrsüberlastung;Linie 10,1
+2015;Februar;Kundgebung/Veranstalt.;Linie 10,2
+2015;Februar;Verkehrsbehinderung;Linie 10,2
+2015;März;Kundgebung/Veranstalt.;Linie 10,6
+2015;März;Unregelm. Betr. u. Uml.;Linie 10,1
+2015;März;Verkehrsüberlastung;Linie 10,2
+2015;März;Verspätungen Allgemein;Linie 10,2
+2015;April;Bauarbeiten;Linie 10,7
+2015;April;Ersatzfahrten und Kursausfälle;Linie 10,1
+2015;April;Kundgebung/Veranstalt.;Linie 10,1
+2015;April;Verkehrsüberlastung;Linie 10,5
+2015;April;Verkehrsunfall;Linie 10,2
+2015;April;Verspätungen Allgemein;Linie 10,1
+2015;Mai;Bauarbeiten;Linie 10,6
+2015;Mai;Kundgebung/Veranstalt.;Linie 10,1
+2015;Mai;Verkehrsüberlastung;Linie 10,3
+2015;Juni;Bauarbeiten;Linie 10,4
+2015;Juni;Kundgebung/Veranstalt.;Linie 10,9
+2015;Juni;Verkehrsüberlastung;Linie 10,7
+2015;Juli;Bauarbeiten;Linie 10,3
+2015;August;Bauarbeiten;Linie 10,2
+2015;August;Kundgebung/Veranstalt.;Linie 10,2
+2015;August;Unregelm. Betr. u. Uml.;Linie 10,2
+2015;August;Verkehrsüberlastung;Linie 10,1
+2015;September;Bauarbeiten;Linie 10,1
+2015;September;Kundgebung/Veranstalt.;Linie 10,1
+2015;September;Verkehrsüberlastung;Linie 10,6
+2015;September;Verkehrsunfall;Linie 10,1
+2015;Oktober;Fahrzeugpanne;Linie 10,1
+2015;Oktober;Kundgebung/Veranstalt.;Linie 10,17
+2015;Oktober;Verkehrsüberlastung;Linie 10,7
+2015;November;Kundgebung/Veranstalt.;Linie 10,31
+2015;November;Sonstige Störungen;Linie 10,1
+2015;November;Verkehrsüberlastung;Linie 10,9
+2015;November;Verkehrsunfall;Linie 10,1
+2015;Dezember;Bauarbeiten;Linie 10,1
+2015;Dezember;Verkehrsüberlastung;Linie 10,5
+2015;Januar;Fahrzeugpanne;Linie 11,2
+2015;Januar;Schneefall/Eis;Linie 11,2
+2015;März;Kundgebung/Veranstalt.;Linie 11,4
+2015;März;Sonstige Störungen;Linie 11,2
+2015;März;Verspätungen Allgemein;Linie 11,2
+2015;April;Kundgebung/Veranstalt.;Linie 11,2
+2015;April;Verkehrsüberlastung;Linie 11,6
+2015;Mai;Kundgebung/Veranstalt.;Linie 11,8
+2015;Mai;Sonstige Störungen;Linie 11,2
+2015;Mai;Verkehrsüberlastung;Linie 11,2
+2015;Juni;Betriebsstörung;Linie 11,4
+2015;Juni;Kundgebung/Veranstalt.;Linie 11,2
+2015;Juni;Verkehrsüberlastung;Linie 11,2
+2015;August;Verkehrsüberlastung;Linie 11,2
+2015;August;Verkehrsunfall;Linie 11,2
+2015;September;Kundgebung/Veranstalt.;Linie 11,4
+2015;September;Sonstige Störungen;Linie 11,1
+2015;September;Verkehrsüberlastung;Linie 11,2
+2015;Oktober;Fahrzeugpanne;Linie 11,2
+2015;Oktober;Kundgebung/Veranstalt.;Linie 11,6
+2015;Oktober;Verkehrsüberlastung;Linie 11,2
+2015;Oktober;Verkehrsunfall;Linie 11,2
+2015;November;Sonstige Störungen;Linie 11,2
+2015;November;Unregelm. Betr. u. Uml.;Linie 11,4
+2015;Dezember;Kundgebung/Veranstalt.;Linie 11,3
+2015;Dezember;Sonstige Störungen;Linie 11,5
+2015;Dezember;Verkehrsüberlastung;Linie 11,4
+2015;Dezember;Verspätungen Allgemein;Linie 11,1
+2015;Januar;Schneefall/Eis;Linie 12,2
+2015;Februar;Betriebsstörung;Linie 12,2
+2015;Februar;Kundgebung/Veranstalt.;Linie 12,8
+2015;Februar;Sonstige Störungen;Linie 12,8
+2015;Februar;Verkehrsbehinderung;Linie 12,4
+2015;März;Kundgebung/Veranstalt.;Linie 12,6
+2015;März;Sonstige Störungen;Linie 12,2
+2015;April;Fahrzeugpanne;Linie 12,2
+2015;April;Kundgebung/Veranstalt.;Linie 12,2
+2015;April;Sonstige Störungen;Linie 12,2
+2015;April;Unregelm. Betr. u. Uml.;Linie 12,2
+2015;Mai;Kundgebung/Veranstalt.;Linie 12,8
+2015;Mai;Sonstige Störungen;Linie 12,2
+2015;Mai;Unregelm. Betr. u. Uml.;Linie 12,2
+2015;Mai;Verkehrsunfall;Linie 12,2
+2015;Mai;Verspätungen Allgemein;Linie 12,2
+2015;Juni;Kundgebung/Veranstalt.;Linie 12,16
+2015;Juni;Blaulichtorganisationen;Linie 12,2
+2015;August;Fahrzeugpanne;Linie 12,2
+2015;August;Kundgebung/Veranstalt.;Linie 12,6
+2015;August;Verkehrsunfall;Linie 12,2
+2015;September;Bauarbeiten;Linie 12,6
+2015;Oktober;Fahrzeugpanne;Linie 12,6
+2015;Oktober;Kundgebung/Veranstalt.;Linie 12,14
+2015;Oktober;Verkehrsunfall;Linie 12,2
+2015;Oktober;Verspätungen Allgemein;Linie 12,4
+2015;November;Bauarbeiten;Linie 12,1
+2015;November;Fahrzeugpanne;Linie 12,2
+2015;November;Kundgebung/Veranstalt.;Linie 12,8
+2015;November;Sonstige Störungen;Linie 12,2
+2015;November;Verkehrsüberlastung;Linie 12,2
+2015;Dezember;Fahrzeugpanne;Linie 12,2
+2015;Dezember;Kundgebung/Veranstalt.;Linie 12,1
+2015;Februar;Ersatzfahrten und Kursausfälle;Linie 16,1
+2015;Februar;Fahrzeugpanne;Linie 16,1
+2015;Juni;Kundgebung/Veranstalt.;Linie 16,3
+2015;Oktober;Kundgebung/Veranstalt.;Linie 16,1
+2015;November;Sonstige Störungen;Linie 16,1
+2015;März;Kundgebung/Veranstalt.;Linie 17,1
+2015;März;Verspätungen Allgemein;Linie 17,1
+2015;April;Verkehrsunfall;Linie 17,1
+2015;April;Verspätungen Allgemein;Linie 17,1
+2015;Mai;Kundgebung/Veranstalt.;Linie 17,1
+2015;Mai;Blaulichtorganisationen;Linie 17,1
+2015;Mai;Verkehrsüberlastung;Linie 17,1
+2015;Juni;Kundgebung/Veranstalt.;Linie 17,6
+2015;Juni;Verkehrsüberlastung;Linie 17,1
+2015;Juli;Unregelm. Betr. u. Uml.;Linie 17,1
+2015;August;Bauarbeiten;Linie 17,2
+2015;August;Verkehrsüberlastung;Linie 17,3
+2015;August;Verkehrsunfall;Linie 17,1
+2015;September;Bauarbeiten;Linie 17,2
+2015;September;Verkehrsüberlastung;Linie 17,2
+2015;Oktober;Betriebsstörung;Linie 17,1
+2015;Oktober;Kundgebung/Veranstalt.;Linie 17,2
+2015;Oktober;Verkehrsüberlastung;Linie 17,1
+2015;November;Sonstige Störungen;Linie 17,1
+2015;Dezember;Unregelm. Betr. u. Uml.;Linie 17,1
+2015;Dezember;Verkehrsüberlastung;Linie 17,1
+2015;Januar;Fahrzeugpanne;Linie 19,1
+2015;Januar;Kundgebung/Veranstalt.;Linie 19,1
+2015;Januar;Schneefall/Eis;Linie 19,1
+2015;Januar;Verkehrsunfall;Linie 19,2
+2015;Februar;Kundgebung/Veranstalt.;Linie 19,2
+2015;Februar;Schneefall/Eis;Linie 19,1
+2015;März;Fahrzeugpanne;Linie 19,1
+2015;März;Kundgebung/Veranstalt.;Linie 19,4
+2015;März;Unregelm. Betr. u. Uml.;Linie 19,1
+2015;April;Bauarbeiten;Linie 19,7
+2015;April;Ersatzfahrten und Kursausfälle;Linie 19,1
+2015;April;Kundgebung/Veranstalt.;Linie 19,1
+2015;April;Verkehrsunfall;Linie 19,1
+2015;Mai;Bauarbeiten;Linie 19,6
+2015;Mai;Kundgebung/Veranstalt.;Linie 19,2
+2015;Mai;Verkehrsüberlastung;Linie 19,1
+2015;Juni;Kundgebung/Veranstalt.;Linie 19,9
+2015;Juni;Verkehrsüberlastung;Linie 19,1
+2015;August;Bauarbeiten;Linie 19,1
+2015;August;Fahrzeugpanne;Linie 19,1
+2015;August;Kundgebung/Veranstalt.;Linie 19,1
+2015;August;Unregelm. Betr. u. Uml.;Linie 19,1
+2015;September;Kundgebung/Veranstalt.;Linie 19,2
+2015;September;Unregelm. Betr. u. Uml.;Linie 19,1
+2015;September;Verkehrsunfall;Linie 19,1
+2015;Oktober;Kundgebung/Veranstalt.;Linie 19,17
+2015;November;Fahrzeugpanne;Linie 19,1
+2015;November;Kundgebung/Veranstalt.;Linie 19,31
+2015;November;Sonstige Störungen;Linie 19,1
+2015;November;Unregelm. Betr. u. Uml.;Linie 19,1
+2015;Dezember;Bauarbeiten;Linie 19,1
+2015;Januar;Fahrzeugpanne;Linie 20,2
+2015;Januar;Verkehrsüberlastung;Linie 20,2
+2015;Februar;Kundgebung/Veranstalt.;Linie 20,8
+2015;Februar;Verkehrsüberlastung;Linie 20,4
+2015;März;Kundgebung/Veranstalt.;Linie 20,4
+2015;März;Verspätungen Allgemein;Linie 20,4
+2015;April;Kundgebung/Veranstalt.;Linie 20,2
+2015;April;Verkehrsunfall;Linie 20,2
+2015;April;Verspätungen Allgemein;Linie 20,6
+2015;Mai;Kundgebung/Veranstalt.;Linie 20,10
+2015;Mai;Sonstige Störungen;Linie 20,2
+2015;Mai;Verkehrsüberlastung;Linie 20,4
+2015;Juni;Kundgebung/Veranstalt.;Linie 20,16
+2015;Juni;Verkehrsüberlastung;Linie 20,2
+2015;August;Kundgebung/Veranstalt.;Linie 20,2
+2015;August;Verkehrsüberlastung;Linie 20,2
+2015;September;Kundgebung/Veranstalt.;Linie 20,8
+2015;Oktober;Fahrzeugpanne;Linie 20,4
+2015;Oktober;Kundgebung/Veranstalt.;Linie 20,10
+2015;Oktober;Verkehrsüberlastung;Linie 20,2
+2015;November;Kundgebung/Veranstalt.;Linie 20,6
+2015;November;Sonstige Störungen;Linie 20,2
+2015;November;Unregelm. Betr. u. Uml.;Linie 20,4
+2015;November;Verkehrsüberlastung;Linie 20,10
+2015;Dezember;Verkehrsüberlastung;Linie 20,4
+2015;Januar;Schneefall/Eis;Linie 21,1
+2015;Januar;Verkehrsunfall;Linie 21,1
+2015;März;Kundgebung/Veranstalt.;Linie 21,1
+2015;März;Verkehrsunfall;Linie 21,1
+2015;März;Verspätungen Allgemein;Linie 21,2
+2015;April;Kundgebung/Veranstalt.;Linie 21,1
+2015;April;Verkehrsunfall;Linie 21,1
+2015;Mai;Fahrzeugpanne;Linie 21,1
+2015;Mai;Kundgebung/Veranstalt.;Linie 21,3
+2015;Mai;Sonstige Störungen;Linie 21,1
+2015;Juni;Fahrzeugpanne;Linie 21,2
+2015;Juni;Kundgebung/Veranstalt.;Linie 21,1
+2015;Juni;Verkehrsunfall;Linie 21,1
+2015;Juli;Fahrzeugpanne;Linie 21,1
+2015;August;Verkehrsunfall;Linie 21,1
+2015;September;Kundgebung/Veranstalt.;Linie 21,2
+2015;Oktober;Fahrzeugpanne;Linie 21,1
+2015;Oktober;Kundgebung/Veranstalt.;Linie 21,2
+2015;November;Sonstige Störungen;Linie 21,1
+2015;November;Unregelm. Betr. u. Uml.;Linie 21,2
+2015;Dezember;Verkehrsüberlastung;Linie 21,1
+2015;März;Sonstige Störungen;Linie 24,1
+2015;Januar;Fahrzeugpanne;Linie 26,1
+2015;Februar;Fahrzeugpanne;Linie 26,1
+2015;August;Fahrzeugpanne;Linie 26,2
+2015;Oktober;Kundgebung/Veranstalt.;Linie 26,1
+2015;November;Fahrzeugpanne;Linie 26,2
+2015;November;Sonstige Störungen;Linie 26,1
+2015;Dezember;Fahrzeugpanne;Linie 26,1
+2015;Januar;Kundgebung/Veranstalt.;Linie 27,1
+2015;März;Verkehrsunfall;Linie 27,1
+2015;Mai;Bauarbeiten;Linie 27,1
+2015;Juli;Betriebsstörung;Linie 27,1
+2015;Juli;Fahrzeugpanne;Linie 27,1
+2015;September;Blaulichtorganisationen;Linie 27,1
+2015;Oktober;Fahrzeugpanne;Linie 27,1
+2015;Oktober;Kundgebung/Veranstalt.;Linie 27,1
+2015;Oktober;Blaulichtorganisationen;Linie 27,1
+2015;Oktober;Verkehrsunfall;Linie 27,2
+2015;November;Sonstige Störungen;Linie 27,1
+2015;Januar;Schneefall/Eis;Linie 28,2
+2015;Januar;Verkehrsüberlastung;Linie 28,3
+2015;Januar;Verkehrsunfall;Linie 28,2
+2015;Februar;Kundgebung/Veranstalt.;Linie 28,1
+2015;März;Verkehrsüberlastung;Linie 28,1
+2015;März;Verkehrsunfall;Linie 28,1
+2015;April;Fahrzeugpanne;Linie 28,1
+2015;April;Verkehrsüberlastung;Linie 28,2
+2015;April;Verkehrsunfall;Linie 28,1
+2015;Mai;Verkehrsüberlastung;Linie 28,2
+2015;Juni;Kundgebung/Veranstalt.;Linie 28,5
+2015;Juni;Verkehrsunfall;Linie 28,1
+2015;Juli;Bauarbeiten;Linie 28,1
+2015;August;Fahrzeugpanne;Linie 28,1
+2015;August;Unregelm. Betr. u. Uml.;Linie 28,1
+2015;August;Verkehrsüberlastung;Linie 28,1
+2015;September;Kundgebung/Veranstalt.;Linie 28,2
+2015;September;Verkehrsunfall;Linie 28,1
+2015;Oktober;Bauarbeiten;Linie 28,1
+2015;Oktober;Fahrzeugpanne;Linie 28,2
+2015;Oktober;Kundgebung/Veranstalt.;Linie 28,2
+2015;Oktober;Verkehrsüberlastung;Linie 28,3
+2015;November;Bauarbeiten;Linie 28,1
+2015;November;Kundgebung/Veranstalt.;Linie 28,1
+2015;November;Sonstige Störungen;Linie 28,1
+2015;November;Verkehrsüberlastung;Linie 28,1
+2015;Dezember;Verkehrsüberlastung;Linie 28,1
+2015;Januar;Schneefall/Eis;Linie 29,1
+2015;Februar;Unregelm. Betr. u. Uml.;Linie 29,1
+2015;Februar;Verkehrsbehinderung;Linie 29,1
+2015;März;Verkehrsunfall;Linie 29,1
+2015;März;Verspätungen Allgemein;Linie 29,1
+2015;April;Fahrzeugpanne;Linie 29,1
+2015;April;Verkehrsüberlastung;Linie 29,1
+2015;Mai;Fahrzeugpanne;Linie 29,1
+2015;Juni;Bauarbeiten;Linie 29,6
+2015;Juni;Kundgebung/Veranstalt.;Linie 29,7
+2015;Juni;Verkehrsüberlastung;Linie 29,2
+2015;Juli;Ersatzfahrten und Kursausfälle;Linie 29,1
+2015;Juli;Fahrzeugpanne;Linie 29,1
+2015;August;Bauarbeiten;Linie 29,9
+2015;August;Fahrzeugpanne;Linie 29,2
+2015;August;Verkehrsüberlastung;Linie 29,1
+2015;September;Bauarbeiten;Linie 29,1
+2015;September;Verkehrsunfall;Linie 29,1
+2015;Oktober;Fahrzeugpanne;Linie 29,1
+2015;Oktober;Kundgebung/Veranstalt.;Linie 29,1
+2015;Oktober;Verkehrsüberlastung;Linie 29,2
+2015;November;Bauarbeiten;Linie 29,1
+2015;November;Fahrzeugpanne;Linie 29,3
+2015;November;Sonstige Störungen;Linie 29,1
+2015;November;Unregelm. Betr. u. Uml.;Linie 29,1
+2015;Dezember;Bauarbeiten;Linie 29,7
+2015;Januar;Schneefall/Eis;Linie 30,1
+2015;Februar;Kundgebung/Veranstalt.;Linie 30,2
+2015;Februar;Verkehrsbehinderung;Linie 30,2
+2015;Mai;Unregelm. Betr. u. Uml.;Linie 30,1
+2015;Mai;Verkehrsbehinderung;Linie 30,1
+2015;August;Kundgebung/Veranstalt.;Linie 30,1
+2015;September;Bauarbeiten;Linie 30,2
+2015;Oktober;Kundgebung/Veranstalt.;Linie 30,3
+2015;November;Sonstige Störungen;Linie 30,1
+2015;Dezember;Unregelm. Betr. u. Uml.;Linie 30,1
+2015;Januar;Fahrzeugpanne;Linie 31,2
+2015;Januar;Verkehrsbehinderung;Linie 31,1
+2015;August;Bauarbeiten;Linie 31,1
+2015;Oktober;Kundgebung/Veranstalt.;Linie 31,1
+2015;November;Sonstige Störungen;Linie 31,1
+2015;Juni;Fahrzeugpanne;Linie 32,1
+2015;Oktober;Kundgebung/Veranstalt.;Linie 32,1
+2015;November;Sonstige Störungen;Linie 32,1
+2015;Februar;Sonstige Störungen;Linie (Leer),2
+2016;Januar;Betriebsstörung;Linie 3,3
+2016;Februar;Kundgebung/Veranstalt.;Linie 3,1
+2016;März;Fahrzeugpanne;Linie 3,1
+2016;Januar;Betriebsstörung;Linie 6,3
+2016;Januar;Fahrzeugpanne;Linie 6,6
+2016;Januar;Kundgebung/Veranstalt.;Linie 6,1
+2016;Januar;Blaulichtorganisationen;Linie 6,2
+2016;Januar;Sonstige Störungen;Linie 6,1
+2016;Januar;Verkehrsüberlastung;Linie 6,7
+2016;Januar;Verkehrsunfall;Linie 6,1
+2016;Februar;Bauarbeiten;Linie 6,1
+2016;Februar;Betriebsstörung;Linie 6,5
+2016;Februar;Fahrzeugpanne;Linie 6,7
+2016;Februar;Kundgebung/Veranstalt.;Linie 6,3
+2016;Februar;Verspätungen Allgemein;Linie 6,2
+2016;März;Betriebsstörung;Linie 6,2
+2016;März;Fahrzeugpanne;Linie 6,1
+2016;März;Sonstige Störungen;Linie 6,1
+2016;März;Unregelm. Betr. u. Uml.;Linie 6,1
+2016;März;Verkehrsunfall;Linie 6,1
+2016;Januar;Betriebsstörung;Linie 7,1
+2016;Januar;Fahrzeugpanne;Linie 7,3
+2016;Januar;Kundgebung/Veranstalt.;Linie 7,1
+2016;Januar;Verkehrsüberlastung;Linie 7,1
+2016;Februar;Bauarbeiten;Linie 7,1
+2016;Februar;Betriebsstörung;Linie 7,5
+2016;Februar;Fahrzeugpanne;Linie 7,2
+2016;Februar;Kundgebung/Veranstalt.;Linie 7,3
+2016;Februar;Schneefall/Eis;Linie 7,1
+2016;März;Betriebsstörung;Linie 7,3
+2016;März;Fahrzeugpanne;Linie 7,1
+2016;März;Unregelm. Betr. u. Uml.;Linie 7,1
+2016;März;Verkehrsunfall;Linie 7,2
+2016;Januar;Betriebsstörung;Linie 8,1
+2016;Januar;Fahrzeugpanne;Linie 8,3
+2016;Januar;Kundgebung/Veranstalt.;Linie 8,1
+2016;Januar;Verkehrsüberlastung;Linie 8,2
+2016;Februar;Bauarbeiten;Linie 8,1
+2016;Februar;Betriebsstörung;Linie 8,6
+2016;Februar;Fahrzeugpanne;Linie 8,2
+2016;Februar;Kundgebung/Veranstalt.;Linie 8,3
+2016;Februar;Schneefall/Eis;Linie 8,1
+2016;Februar;Verspätungen Allgemein;Linie 8,1
+2016;März;Betriebsstörung;Linie 8,2
+2016;März;Fahrzeugpanne;Linie 8,1
+2016;März;Unregelm. Betr. u. Uml.;Linie 8,1
+2016;März;Verkehrsunfall;Linie 8,1
+2016;Januar;Betriebsstörung;Linie 9,1
+2016;Januar;Fahrzeugpanne;Linie 9,2
+2016;Januar;Kundgebung/Veranstalt.;Linie 9,1
+2016;Januar;Verkehrsüberlastung;Linie 9,1
+2016;Januar;Verspätungen Allgemein;Linie 9,3
+2016;Februar;Betriebsstörung;Linie 9,4
+2016;Februar;Fahrzeugpanne;Linie 9,1
+2016;Februar;Kundgebung/Veranstalt.;Linie 9,7
+2016;Februar;Verkehrsüberlastung;Linie 9,1
+2016;Februar;Verkehrsunfall;Linie 9,1
+2016;März;Fahrzeugpanne;Linie 9,1
+2016;März;Kundgebung/Veranstalt.;Linie 9,2
+2016;März;Unregelm. Betr. u. Uml.;Linie 9,1
+2016;Januar;Kundgebung/Veranstalt.;Linie 10,1
+2016;Januar;Schneefall/Eis;Linie 10,1
+2016;Januar;Unregelm. Betr. u. Uml.;Linie 10,1
+2016;Januar;Verkehrsüberlastung;Linie 10,1
+2016;Februar;Betriebsstörung;Linie 10,1
+2016;Februar;Kundgebung/Veranstalt.;Linie 10,10
+2016;Februar;Verkehrsüberlastung;Linie 10,1
+2016;Februar;Verkehrsunfall;Linie 10,1
+2016;Januar;Verkehrsbehinderung;Linie 11,1
+2016;Januar;Verkehrsunfall;Linie 11,1
+2016;Februar;Fahrzeugpanne;Linie 11,1
+2016;Februar;Kundgebung/Veranstalt.;Linie 11,1
+2016;März;Fahrzeugpanne;Linie 11,1
+2016;März;Blaulichtorganisationen;Linie 11,1
+2016;Januar;Fahrzeugpanne;Linie 12,1
+2016;Januar;Kundgebung/Veranstalt.;Linie 12,1
+2016;Januar;Schneefall/Eis;Linie 12,2
+2016;Februar;Betriebsstörung;Linie 12,2
+2016;Februar;Fahrzeugpanne;Linie 12,1
+2016;Februar;Kundgebung/Veranstalt.;Linie 12,4
+2016;Februar;Verkehrsunfall;Linie 12,1
+2016;März;Fahrzeugpanne;Linie 12,1
+2016;März;Verspätungen Allgemein;Linie 12,1
+2016;Januar;Fahrzeugpanne;Linie 16,1
+2016;Februar;Unregelm. Betr. u. Uml.;Linie 17,1
+2016;Januar;Fahrzeugpanne;Linie 19,1
+2016;Januar;Kundgebung/Veranstalt.;Linie 19,1
+2016;Januar;Unregelm. Betr. u. Uml.;Linie 19,1
+2016;Januar;Verkehrsüberlastung;Linie 19,3
+2016;Februar;Bauarbeiten;Linie 19,1
+2016;Februar;Betriebsstörung;Linie 19,1
+2016;Februar;Fahrzeugpanne;Linie 19,1
+2016;Februar;Kundgebung/Veranstalt.;Linie 19,9
+2016;Januar;Verkehrsüberlastung;Linie 20,1
+2016;Januar;Verkehrsunfall;Linie 20,1
+2016;Februar;Kundgebung/Veranstalt.;Linie 20,3
+2016;Februar;Verkehrsüberlastung;Linie 20,2
+2016;März;Kundgebung/Veranstalt.;Linie 20,1
+2016;Januar;Verkehrsbehinderung;Linie 21,1
+2016;Februar;Kundgebung/Veranstalt.;Linie 21,1
+2016;März;Blaulichtorganisationen;Linie 21,1
+2016;Januar;Fahrzeugpanne;Linie 26,1
+2016;Januar;Fahrzeugpanne;Linie 27,1
+2016;Januar;Blaulichtorganisationen;Linie 27,1
+2016;März;Verkehrsunfall;Linie 27,1
+2016;Januar;Verkehrsbehinderung;Linie 28,1
+2016;Januar;Verkehrsüberlastung;Linie 28,5
+2016;Februar;Bauarbeiten;Linie 28,1
+2016;Februar;Kundgebung/Veranstalt.;Linie 28,2
+2016;Februar;Verkehrsüberlastung;Linie 28,2
+2016;Januar;Verkehrsunfall;Linie 29,2
+2016;Februar;Bauarbeiten;Linie 29,1
+2016;Februar;Fahrzeugpanne;Linie 29,2
+2016;März;Bauarbeiten;Linie 29,1
+2016;Februar;Kundgebung/Veranstalt.;Linie 30,1
+2016;Januar;Betriebsstörung;Linie 31,1
+2016;Februar;Blaulichtorganisationen;Linie 31,1

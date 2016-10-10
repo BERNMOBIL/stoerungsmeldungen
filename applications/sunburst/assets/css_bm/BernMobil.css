@@ -1,0 +1,119 @@
+
+div {
+}
+
+#main {
+    width: 750px;
+    display: block;
+    margin: auto;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+#sequence {
+  width: 750px;
+  height: 70px;
+}
+
+#sequence text, #legend text {
+    font-weight: 600;
+    fill: #fff;
+}
+
+#chart {
+    position: relative;
+}
+
+#chart path {
+    stroke: #fff;
+}
+
+#percentage {
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    font-size: 2.5em;
+    margin:auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+
+#tree {
+    width: 350px;
+    float: right;
+    margin-right: 50px;
+    text-align: left;
+}
+
+
+@media (max-width:1150px) {
+#tree {
+    width: 350px;
+    float: right;
+    display: none;
+}
+}
+
+@media (min-width:1150px) {
+#main {
+    float: inherit;
+    margin: inherit;
+    
+}
+}
+
+a.tooltip {
+    width: 100px;
+    height: 100px;
+}
+
+@media (min-width:1200px) {
+hr.vorgehen {
+    display: none;
+}
+}
+
+p.titel {
+    font-weight: 600;
+}
+
+.img-circle {
+    border-radius: 50%;
+    position: relative;
+    height: 90px;
+    width: 90px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.img-circle.hor img {
+    position: relative;
+    left: 50%;
+    height: 130px;
+    transform: translateX(-50%);
+    vertical-align: middle;
+ }
+
+.centerImg {
+    width:100%;
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display: -webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+
+
+

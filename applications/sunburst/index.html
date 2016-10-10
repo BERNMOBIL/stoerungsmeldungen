@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Open Data App University of Bern">
+    <meta name="author" content="Silvan Schwegler and Jonas Brueniger">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>BernMobil Visualisierung</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css_bm/BernMobil.css">
+	
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+		
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html#start" class="smoothScroll">Open Data App</a></h1>
+			<i class="icon-remove menu-close"></i>
+			<a href="#start" class="smoothScroll">Start</a>
+			<a href="#vorgehen" class="smoothScroll">Vorgehen</a>
+            <a href="#carousel" class="smoothScroll">Entwürfe</a>
+			<a href="#visualisierung" class="smoothScroll">Visualisierung</a>
+            <a href="#livefeed" class="smoothScroll">Twitter Live-Feed</a>
+			<a href="#about" class="smoothScroll">Über uns</a>
+			<a href="#contact" class="smoothScroll">Kontakt</a>
+			<a href="https://www.facebook.com/bernmobil" ><i class="icon-facebook"></i></a>
+			<a href="https://twitter.com/BERNMOBIL" ><i class="icon-twitter"></i></a>
+		</div>
+		
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="icon-reorder"></i></div>
+	</nav>
+
+
+	
+	<!-- ========== HEADER SECTION ========== -->
+	<section id="start" name="start"></section>
+	<div id="headerwrap">
+		<div class="container">
+			<br>
+			<h1>VISUALISIERUNG</h1>
+			<h2>VON OPEN DATA</h2>
+			<div class="row">
+				<br>
+				<br>
+				<br>
+				<div class="col-lg-6 col-lg-offset-3">
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+	
+
+      
+	<!-- ========== WHITE SECTION ========== -->
+	<div id="w">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+                    <h3>WILLKOMMEN <bold>AUF UNSERER PLATTFORM ZUR VISUALISIERUNG VON</bold> STÖRUNGSMELDUNGEN DER <a href="https://bernmobil.ch" >BERNMOBIL</a><bold>. ENTWICKLET WURDE DIESE APPLIKATION IM RAHMEN DER VORLESUNG </bold>"OPEN DATA"<bold> AN DER</bold> UNIVERSITÄT BERN<bold>.</bold><br/>
+                      
+				</h3>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /w -->
+	
+	<!-- ========== SERVICES - GREY SECTION ========== -->
+	<section id="vorgehen" name="vorgehen"></section>
+	<div id="g">
+		<div class="container">
+			<div class="row">
+                <h3>Vorgehen</h3>
+				<br>
+				<br>
+				<div class="col-lg-3 steps">
+                    <a data-toggle="tooltip" title="&quot;data icon PNG&quot; by designmodo is licensed under CC BY 3.0"><img src="assets/img/data-512.png" width=100px height=100px></a>                
+					<h4>Schritt 1</h4>
+                    <p><p class="titel">Erhalt der Daten vom Datacoach</p> Wir haben die Daten als Excel-File erhalten. Durch Text-Mining und diversen Umformungen haben wir ein CSV-File erstellt, welches unseren Anforderungen für die Visualisierung am Besten entsprach.  <p>Die Original-Daten sowie das CSV-File kriegst du hier:</p>
+                    <p><a href="assets/data/St%C3%B6rungsmeldungen_BernMobil_Raw.xlsx" download>Download .xlsx <i class="icon-file"></i></a><br>
+                    <a href="assets/data/bern_mobil_data.csv" download>Download .csv <i class="icon-file"></i></a></p>
+				</div>
+        <hr class="vorgehen">
+				<div class="col-lg-3 steps">
+                    <a data-toggle="tooltip" title="&quot;code optimization icon SVG&quot; by simpleicon.com"><img src="assets/img/Code-Optimization.png" width=100px height=100px></a>
+					<h4>Schritt 2</h4>
+                    <p><p class="titel">Suche nach einem Code Snippet</p> Die Suche nach einem passenden und aussagekräftigen Snippet war ein aufwändiger, doch auch spannender Prozess. Wir haben einige Prototypen "gebaut" und sind so unserem Ziel immer etwas näher gekommen. Einer unserer ersten Prototypen, welcher in eben diesem Prozess entstanden ist, möchten wir euch nicht vorenthalten. Visualisiert werden Daten, die aufwendig sortiert und rangiert wurden. Resultat davon ist ein "Ranking" der Linien über das Jahr 2015, wobei Platz eins an diejenige Linie geht, welche, im Vergleich zu den anderen aufgeführten Linien, am wenigsten Störungen im jeweiligen Monat aufwies. <p> Das Original-Snippet, sowie den Rankingversuch kriegst du hier:</p> </p>
+                    <p><a href="assets/ranking/index.html" >Ranking Versuch <i class="icon-globe"></i></a><br>
+                    <a href="#carousel" class="smoothScroll">Weitere Entwürfe und Versuche <i class="icon-picture"></i></a><br>
+                    <a href="http://bl.ocks.org/kerryrodden/7090426" >Snippet Source <i class="icon-globe"></i></a>
+                    </p>
+				</div>
+        <hr class="vorgehen">
+				<div class="col-lg-3 steps">
+                    <a data-toggle="tooltip" title="&quot;settings cog free icon SVG&quot; by Freepik on flatiocon.com"><img src="assets/img/Feedbin-Icon-settings.svg.png" width=100px height=100px></a>
+					<h4>Schritt 3</h4>
+                    <p><p class="titel">Customizing des/der Code-Snippets/Daten</p> Nach ein paar ersten (erfolglosen) Versuchen konnten wir die Daten ein erstes Mal korrekt einlesen und visualisieren. Sofort stachen Eigenheiten heraus. Allerdings mussten wir uns mit voreiligen Schlüssen zurückhalten. Die Daten reichen von Dezember 2014 bis März 2016, was einen sinnvollen, direkten Vergleich der Jahre sinnlos macht. Auf der Suche nach einer Lösung für das Vergleichsproblem (und damit auch die Aussagekraft) sind wir auf eine zweite Darstellung der Daten mittels "Treeview" gestossen. In diesem "Treeview" stecken Filterfunktionalitäten, welche, ab einer Fensterbreite von 1150 Pixeln, den Nutzerinnen und Nutzern die genauere Betrachtung einzelner Hierarchiestränge ermöglichen. So können beispielsweise die verschiedenen Störungsarten im Juni 2015 anteilsmässig miteinander verglichen werden. </p>
+                    <p><a href="https://github.com/jonmiles/bootstrap-treeview" >Bootstrap Treeview <i class="icon-globe"></i></a>
+				</div>
+        <hr class="vorgehen">
+				<div class="col-lg-3 steps">
+                    <a data-toggle="tooltip" title="&quot;edit finish free icon&quot; by manuelsax on onlinewebfonts.com"><img src="assets/img/0ab4261eb2cfade871533d7787c7940e.svg" width=100px height=100px></a>
+					<h4>Schritt 4</h4>
+                    <p><p class="titel">Letzter Schliff</p> In einem letzten Schritt haben wir unsere Visualisierung in ein ansprechendes One-Page-Design eingepasst und mit Informationen, sowie Zusatzfeatures (Carousel, License im Tooltip, Twitter Live-Feed etc.) ausgeschmückt. Zudem haben wir unter der Haube nochmal kräftig am CSS des Basis-Designs (von <a href="https://blacktie.co">blacktie.co</a>) und an unserer JavaScript-Datei gearbeitet.</p>
+                    <p>
+                    <a href="assets/data/Jonas_Silvan_BernMobil.zip" download>Download our code as ZIP-File <i class="icon-download"></i></a></p>
+				</div>
+			</div>
+    
+    <hr>
+    
+                        
+     <!-----========   CAROUSEL   =========---->
+    
+    <div id="carousel"></div>
+            <h3>Einige erste Entwürfe und Ideen</h3>
+            <br>
+            <br>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div id="carousel-example-generic" class="carousel slide">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                      </ol>
+
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                        <div class="item active">
+                          <img src="assets/img/img-01-slider.jpg" alt="">
+                        </div>
+                        <div class="item">
+                          <img src="assets/img/img-02-slider.jpg" alt="">
+                        </div>
+                        <div class="item">
+                          <img src="assets/img/img-03-slider.jpg" alt="">
+                        </div>
+                        <div class="item">
+                          <img src="assets/img/img-04-slider.jpg" alt="">
+                        </div>
+                        <div class="item">
+                          <img src="assets/img/img-05-slider.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            
+		</div><!-- /container -->
+	</div><!-- /g -->
+	
+	<!-- ========== CHARTS - GREY SECTION ========== -->	
+<div>	
+	<!-- ========== WHITE SECTION ========== -->
+	<div id="w">
+		<div id="visualisierung" class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+                    <h3><p><bold>ALS</bold> ÖFFENTLICHER TRANSPORTDIENSTLEISTER<bold> DER STADT BERN BLEIBT AUCH </bold><A HREF="HTTPS://BERNMOBIL.CH">BERNMOBIL</A><bold>
+                    NICHT VON STÖRUNGEN UND EINSCHRÄNKUNGEN DES FAHRBETRIEBS VERSCHONT. </bold>TAGTÄGLICH<bold>
+                    WERDEN ETLICHE STÖRUNGSMELDUNGEN DURCH DIE LEITSTELLE REGISTRIERT UND VERARBEITET.
+                    DABEI REICHT DIE BANDBREITE VON WINTERLICHEM SCHNEEFALL BIS HIN ZU
+                    SOMMERLICHEN VERANSTALTUNGEN.</bold></p>
+
+                    <p><bold>UNSERE VISUALISIERUNG BELEUCHTET STÖRUNGSMELDUNGEN ANTEILSMÄSSIG </bold>IM ZEITLICHEN KONTEXT<bold>. DAS SUNBURST-DIAGRAMM BAUT AUF EINE </bold>HIERARCHISCHE STRUKTUR<bold>, WOBEI DAS JAHR, GEFOLGT VON MONAT, KATEGORIE UND LINIE, DIE HÖCHSTE EBENE BILDET.</bold> DER FILTER<bold>, WELCHER AB EINER </bold>FENSTERBREITE VON 1150 PIXELN<bold> ERSCHEINT, ERMÖGLICHT DEN NUTZERINNEN UND NUTZERN DIE </bold>GENAUERE BETRACHTUNG EINZELNER HIERARCHIESTRÄNGE<bold>. SO KÖNNEN BEISPIELSWEISE DIE VERSCHIEDENEN STÖRUNGSARTEN IM JUNI 2015 ANTEILSMÄSSIG MITEINANDER VERGLICHEN WERDEN:</bold></p></h3>
+                    <br>
+                    <p><a href="#main-visual" class="smoothScroll"><i class="icon-arrow-down"></i></a></p>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /w -->
+
+    
+    <!-- ========== Visualisierung ================ -->
+    <div id="g">
+        <div class=text-center>
+        <div id="main-visual" class="visual">
+                <div id="tree"></div>
+                <div id="main">
+                    <div id="sequence"></div>
+                        <div id="chart">
+                            
+                            <p id="percentage" />
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+     </div>
+
+        
+    <!-- ======== TITLE LIVE-FEED ====== -->    
+   
+    <div id="livefeed"></div>
+	<div id="w">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+                    <h3><bold>AKTUELLE STÖRUNGSMELDUNGEN VIA </bold><a href="https://twitter.com/BERNMOBIL" >TWITTER <i class="icon-twitter"></i></a> LIVE-FEED<bold>.</bold> 
+                    </h3>
+                </div>
+            </div>
+        </div><!-- /container -->
+    </div><!-- /w -->
+   
+    
+<!-- ========== TWITTER LIVE-FEED - GREY SECTION ============= -->    
+
+    <div id="g">
+        <div class="container">
+            <div class="row">
+                <a class="twitter-timeline" href="https://twitter.com/BERNMOBIL" data-widget-id="729790712179396609">Tweets von @BERNMOBIL</a>
+            </div>
+        </div>
+    </div>     
+        
+<!-- ========== ABOUT - GREY SECTION ========== -->
+        
+	<section id="about" name="about"></section>
+	<div id="w">
+		<div class="container">
+			<div class="row">
+				<h3>Über uns</h3>
+				<br>
+				<br>
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8">
+				</div>
+                <div class="col-lg-2"></div>
+				    <div class="col-lg-6 team">
+                    <div class="centerImg">
+                        <div class="img-circle hor">
+                            <img src="assets/img/foto_silvan.jpg">
+                        </div>
+                    </div>
+					<h4>SILVAN SCHWEGLER</h4>
+					<h5><i>Student BSc Business Administration, Nebenfach Psychologie, 6. Semester, Universität Bern</i></h5>
+					<p>Kontakt:</p>
+					<p>
+						<a href="https://www.facebook.com/silvan.schwegler" ><i class="icon-facebook"></i></a>
+						<a href="https://twitter.com/c_lu1" ><i class="icon-twitter"></i></a>
+						<a href="mailto:silvan.schwegler(ät)gmail.com"><i class="icon-envelope"></i></a>
+                        <a href="https://ch.linkedin.com/in/silvan-schwegler-44aa72b0" ><i class="icon-linkedin"></i></a>
+
+					</p>
+				</div>
+				<div class="col-lg-6 team">
+                    <div class="centerImg">
+                        <div class="img-circle hor">
+                            <img src="assets/img/jonas.svg">
+                        </div>
+                    </div>
+                    <h4>JONAS BRÜNIGER</h4>
+					<h5><i>Student BSc Business Administration, Nebenfach Sozialwissenschaften, 4. Semester, Universität Bern</i></h5>
+					<p>Kontakt:</p>
+					<p>
+                        <a href="https://twitter.com/jonas_brueniger" ><i class="icon-twitter"></i></a>
+                        <a href="mailto:jonas.brueniger@gmail.com"><i class="icon-envelope"></i></a>
+                        <a href="https://ch.linkedin.com/in/jonas-brüniger-6211a2119" ><i class="icon-linkedin"></i></a>
+					</p>
+				</div>
+            </div>
+		</div><!-- /container -->
+	</div><!-- /g -->
+	
+	<!-- ========== FOOTER SECTION ========== -->
+	<section id="contact" name="contact"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+					<h3><b>Kontakt</b></h3>
+					<br>
+					<div class="col-lg-4">
+						<h3><b>Mail an Silvan Schwegler</b></h3>
+						<a href="mailto:silvan.schwegler(ät)gmail.com"><h3>Mail an Silvan </h3><i class="icon-mail"></i></a>
+                        </a>
+						<br>
+					</div>
+					
+					<div class="col-lg-4">	
+						<h3><b>Mail an Jonas Brüniger</b></h3>
+                        <a href="mailto:jonas.brueniger@gmail.com"><h3>Klicke hier für ein Mail an Jonas</h3></a>
+						<br>
+					</div>
+					
+					<div class="col-lg-4">
+                        <h3><b><a href="https://bernmobil.ch" >BernMobil</a></b></h3>
+						<p>
+							<a href="https://facebook.com/bernmobil" ><i class="icon-facebook"></i></a>
+							<a href="https://twitter.com/BERNMOBIL" ><i class="icon-twitter"></i></a>
+						</p>
+						<br>
+					</div>
+				</div>
+			</div>
+		</div><!-- /container -->
+    
+    <!-- ========== CREDIT SECTION ========= -->
+    
+	<div id="c">
+		<div class="container">
+			<p>essential design credits to <a href="http://www.blacktie.co" >BLACKTIE.CO</a></p>
+		</div>
+	</div>
+	
+    <!-- ========== SCRIPT SECTION ========= -->
+    
+    <script src="assets/D3/d3.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.js"></script>
+    <script src="assets/js_bm/BernMobil.js"></script>
+    <script>visualise(["2014", "2015", "2016"],[]);</script>      <!-- 2. Array                                                                     -->
+    <script src="assets/bootstrap/js/bootstrap-treeview.js"></script>
+	<script src="assets/js/Chart.js"></script>
+	<script src="assets/js/classie.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/main.js"></script>
+    <script src="assets/js_bm/tooltip.js"></script>
+    <script src="assets/js_bm/twitter.js"></script>
+    <script>
+	   $('.carousel').carousel({
+           interval: 4000
+	   })
+	</script>
+</body>
+</html>

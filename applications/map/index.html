@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Open Data App University of Bern">
+    <meta name="author" content="Silas Berger and Mario Kaufmann">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>St&ouml;rungs&uuml;bersicht – Karte</title>
+
+    <!-- might not need all of these -->
+    <link rel="stylesheet" type="text/css" href="css/map-d3.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://d3js.org/d3.geo.tile.v0.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/BernmobilEvent.js"></script>
+    <script src="js/bernmobilData.js"></script>
+    <script src="js/bernmobilRoutes.js"></script>
+    <script src="layout/bootstrap/js/bootstrap-treeview.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/resizeListener.js"></script>
+    <script src="js/treeView.js"></script>
+    <script src="js/utilities.js"></script>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="layout/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="layout/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="layout/css/font-awesome.min.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body data-spy="scroll" data-offset="0" data-target="#theMenu">
+
+<!-- Menu -->
+<nav class="menu" id="theMenu">
+    <div class="menu-wrap">
+        <h1 class="logo"><a href="../../" class="smoothScroll">Open Data App</a></h1>
+        <i class="icon-remove menu-close"></i>
+        <a href="#start" class="smoothScroll">Start</a>
+        <a href="#visualisation" class="smoothScroll">Visualisierung</a>
+        <a href="#livefeed" class="smoothScroll">Twitter Live-Feed</a>
+        <a href="#about" class="smoothScroll">Über uns</a>
+        <a href="#contact" class="smoothScroll">Kontakt</a>
+        <a href="https://www.facebook.com/bernmobil"><i class="icon-facebook"></i></a>
+        <a href="https://twitter.com/BERNMOBIL"><i class="icon-twitter"></i></a>
+    </div>
+
+    <!-- Menu button -->
+    <div id="menuToggle"><i class="icon-reorder"></i></div>
+</nav>
+
+
+<!-- ========== HEADER SECTION ========== -->
+<section id="start" name="start"></section>
+<div id="headerwrap">
+    <div class="container">
+        <br>
+        <h1>BERNMOBIL ST&ouml;RUNGSMELDUNGEN</h1>
+        <h2>KARTENANSICHT</h2>
+        <div class="row">
+            <br>
+            <br>
+            <br>
+            <div class="col-lg-6 col-lg-offset-3">
+            </div>
+        </div>
+    </div><!-- /container -->
+</div><!-- /headerwrap -->
+
+
+<!-- ========== WHITE SECTION ========== -->
+<div id="w">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h3>
+                    WILLKOMMEN <bold>ZUR VISUALISIERUNG DER </bold>BERNMOBIL-STÖRUNGSDATEN<bold> IM </bold>GEOGRAPHISCHEN KONTEXT. <br><br>
+                    <bold>DIE KARTE ZEIGT DAS </bold>LINIENNETZ VON BERNMOBIL<bold>, WOBEI </bold>LINIENDICKE UND -FARBE<bold> VON DER </bold>RELATIVEN ANZAHL DER STÖRUNGEN<bold> AUF DER </bold>ENTSPRECHENDEN LINIE<bold> ABHÄNGEN. DER APPLIKATION LIEGEN ZURZEIT DIE STÖRUNGSDATEN VON </bold>DEZEMBER 2014<bold> BIS UND MIT </bold>MÄRZ 2016<bold> ZUGRUNDE.<br><br>
+                    MITHILFE DER BEIDEN </bold>FILTER-LISTEN<bold> KÖNNEN DIE ANZUZEIGENDEN DATEN </bold>BEZÜGLICH MONAT UND STÖRUNGS-KATEGORIE EINGESCHRÄNKT<bold> WERDEN. WENN KEIN FILTER GESETZT IST, WERDEN </bold>SÄMTLICHE DATEN<bold> VERWENDET.
+                    </bold>
+                </h3>
+            </div>
+        </div>
+    </div><!-- /container -->
+</div><!-- /w -->
+
+
+<div>
+    <!-- ========== Visualisierung ================ -->
+    <div class="container" id="visualisation">
+        <div class="row">
+            <div class="col-md-3">
+                <h1 id="courseTitle">Linie</h1>
+                <h3>Anzahl Störungen:</h3>
+                <h3 id="numberIncidentsTitle">0</h3>
+                <h3>Totale Dauer:</h3>
+                <h3 id="totalDurationTitle">0</h3>
+                <h3>Durchschnittliche Dauer:</h3>
+                <h3 id="averageDurationTitle">0</h3>
+            </div>
+            <div class="col-md-9" id="map"></div>
+            <script>
+                drawMap();
+            </script>
+        </div>
+        <div class="row smallPadding">
+            <div class="col-md-2">
+                <h1>Monat</h1>
+                <div id="treeMonth">
+                    <script>createMonthTree();</script>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-offset-1">
+                <h1>Kategorie</h1>
+                <div id="treeCategory">
+                    <script>createCategoryTree();</script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======== TITLE LIVE-FEED ====== -->
+
+    <div id="livefeed"></div>
+    <div id="w">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h3>
+                        <bold>AKTUELLE STÖRUNGSMELDUNGEN VIA</bold>
+                        <a href="https://twitter.com/BERNMOBIL">TWITTER <i class="icon-twitter"></i></a> LIVE-FEED
+                        <bold>.</bold>
+                    </h3>
+                </div>
+            </div>
+        </div><!-- /container -->
+    </div><!-- /w -->
+</div>
+
+<!-- ========== TWITTER LIVE-FEED - GREY SECTION ============= -->
+
+<div id="g">
+    <div class="container">
+        <div class="row">
+            <a class="twitter-timeline" href="https://twitter.com/BERNMOBIL" data-widget-id="729790712179396609">Tweets
+                von @BERNMOBIL</a>
+        </div>
+    </div>
+</div>
+
+<!-- ========== ABOUT - GREY SECTION ========== -->
+
+<section id="about" name="about"></section>
+<div id="w">
+    <div class="container">
+        <div class="row">
+            <h3>Über uns</h3>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <br>
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6 team">
+                <img class="img-circle" src="layout/img/mario_portrait.jpg" height="90" width="90">
+                <h4>MARIO KAUFMANN</h4>
+                <h5><i>Student BSc Computer Science, 6. Semester, Universität Bern</i></h5>
+            </div>
+
+            <div class="col-lg-6 team">
+                <img class="img-circle" src="layout/img/silas_portrait.png" height="90" width="90">
+                <h4>SILAS BERGER</h4>
+                <h5><i>Student BSc Computer Science, 6. Semester, Universität Bern</i></h5>
+            </div>
+        </div>
+    </div><!-- /container -->
+</div><!-- /g -->
+
+<!-- ========== FOOTER SECTION ========== -->
+<section id="contact" name="contact"></section>
+<div id="f">
+	<div class="container">
+		<div class="row">
+			<h3><b>Kontakt</b></h3>
+			<br>
+
+
+			<div class="col-lg-4">
+				<h3><b><a href="https://bernmobil.ch" >BernMobil</a></b></h3>
+				<p>
+					<a href="https://facebook.com/bernmobil" ><i class="icon-facebook"></i></a>
+					<a href="https://twitter.com/BERNMOBIL" ><i class="icon-twitter"></i></a>
+				</p>
+				<br>
+			</div>
+		</div>
+	</div>
+</div><!-- /container -->
+
+<!-- ========== CREDIT SECTION ========= -->
+
+<div id="c">
+    <div class="container">
+        <p>essential design credits to <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
+    </div>
+</div>
+
+<!-- ========== SCRIPT SECTION ========= -->
+
+<script src="layout/bootstrap/js/bootstrap.js"></script>
+<script src="layout/bootstrap/js/bootstrap-treeview.js"></script>
+<script src="layout/js/Chart.js"></script>
+<script src="layout/js/classie.js"></script>
+<script src="layout/js/smoothscroll.js"></script>
+<script src="layout/js/main.js"></script>
+<script src="layout/js/tooltip.js"></script>
+<script src="layout/js/twitter.js"></script>
+</body>
+</html>

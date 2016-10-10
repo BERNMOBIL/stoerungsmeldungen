@@ -1,0 +1,114 @@
+a, a:visited, a:active {
+  color: #CD003C;
+}
+
+.container2 {
+  max-width: 1100px;
+  margin-left: 30px;
+}
+
+.title_text {
+  font-size: 35px;
+}
+
+.logobar {
+  background-color: #CD003C;
+  margin-bottom: 0px;    
+height: 70px;
+}
+
+.greytext {
+    color:#7b7b7b;
+}
+
+.vorgehen_text {
+     font-size: 15px;
+}
+
+.button {
+    margin-top: 15px;
+    margin-left: 15px;
+  display: inline-flex;
+  vertical-align: middle;
+  background-color: white;
+  min-width: 80px;
+  padding: 10px 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 13px;
+  border: 2px solid #e0e0e0;
+  text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.button.active {
+  background: #CD003C;
+  color: #fff;
+}
+
+.button2 {
+    margin-top: 10px;
+    margin-left: 10px;
+  display: inline-flex;
+  vertical-align: middle;
+  background-color: darkgrey;
+  min-width: 80px;
+  padding: 4px 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 13px;
+  border: 1px solid #e0e0e0;
+  text-decoration: none;
+}
+
+.button.active2 {
+  background: #7aa70d;
+  color: #fff;
+}
+
+#vis {
+  height: 600px;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.year, .line, .duration, .weekday{
+  font-size: 18px;
+  fill: #000000;
+  cursor: default;
+}
+
+.type {
+  font-size: 14px;
+  fill: #000000;
+  cursor: default;
+}
+
+.tooltip2 {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+  -moz-border-radius:5px;
+	border-radius: 5px;
+  border: 2px solid #000;
+  background: #fff;
+	opacity: .9;
+  color: black;
+	padding: 10px;
+	width: 400px;
+	z-index: 10;
+    font-size: 13px;
+}
+
+.tooltip2 .title {
+	font-size: 16px;
+}
+
+.tooltip2 .name {
+  font-weight:bold;
+}
+
+.footer {
+  text-align: center;
+}

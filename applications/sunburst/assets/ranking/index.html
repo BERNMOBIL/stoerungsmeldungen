@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+        <meta charset="utf-8">
+        <title> Bernmobil App</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+        <script type="text/javascript" src="d3/d3.min.js"></script>
+        
+    </head>
+    
+    <body>
+        <a href="../../index.html#vorgehen"><button type="button" class="btn btn-danger">Zurück zur Hauptseite</button></a>
+        <h1>Rangliste der am häufigsten benutzten Bernmobil-Linien im Jahr 2015
+        </h1>
+        
+        <script>
+
+            // https://gist.github.com/trtg/3922684
+            d3.selection.prototype.moveToFront = function() {
+                return this.each(function(){
+                    this.parentNode.appendChild(this);
+            });
+            };
+
+            var margin = {top: 20, right: 50, bottom: 30, left: 50},
+                width = 960 - margin.left - margin.right,
+                height = 300 - margin.top - margin.bottom;
+
+            var x = d3.scale.linear()
+                .range([0, width]);
+
+            var y = d3.scale.linear()
+                .range([height, 0]);
+
+            var xAxis = d3.svg.axis()
+                .scale(x)
+                .orient('bottom')
+                .tickFormat(function(d) { return d+'. Monat '; });
+
+            var yAxis = d3.svg.axis()
+                .scale(y)
+                .orient('left');
+
+            var yAxisRight = d3.svg.axis()
+                .scale(y)
+                .orient('right');
+
+
+            var line = d3.svg.line()
+                .interpolate('monotone')
+                .x(function(d, i) { return x(i+1); })
+                .y(function(d) { return y(d); });
+
+            var colors = d3.scale.category20();
+
+            var svg = d3.select('body').append('svg')
+                .attr('width', width + margin.left + margin.right)
+                .attr('height', height + margin.top + margin.bottom)
+              .append('g')
+                .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+            d3.json("data/data.json", function(error, data) {
+              if (error) { throw error; }
+
+              var teamNames = Object.keys(data);
+              var teamData = teamNames.map(function(t, i) { 
+                return { name: t, values: data[t], index: i };
+              });
+              x.domain(d3.extent(d3.range(1, teamData[0].values.length + 1)));
+              y.domain([teamNames.length + 0.5, 1]);
+
+              svg.append('g')
+                  .attr('class', 'x axis')
+                  .attr('transform', 'translate(0,' + height + ')')
+                  .call(xAxis);
+
+              svg.append('g')
+                  .attr('class', 'y axis')
+                  .call(yAxis)
+
+              d3.select('svg').append('g')
+                  .attr('class', 'y axis')
+                  .attr('transform', 'translate(' + (width + margin.left) + ',' + margin.top + ')')
+                  .call(yAxisRight);
+
+              var ranks = svg.append('g').selectAll('.line')
+                  .data(teamData)
+                .enter()
+                  .append('path')
+                  .attr('class', 'line')
+                  .attr('d', function(d) { return line(d.values); })
+                  .attr('data-team', function(d) { return d.name; })
+                  .attr('data-team-index', function(d, i) { return i; })
+                  .style({
+                    stroke: function(d, i) { return colors(i); }
+                  })
+                  .on('click', function(e) {
+                    removeSelection();
+                    var selector = 'div[data-team-index=\'' + e.index + '\']';
+                    d3.select(this).classed('selected', true).moveToFront();
+                    d3.select(selector).classed('selected', true);
+                  });
+
+              var teams = teamData.map(function(d, i) { 
+                return { 
+                  name: d.name.toLowerCase(),
+                  display: d.name, 
+                  index: i,
+                  color: colors(i)
+                }; 
+              });
+              teams.sort(function(a, b) { 
+                if ( a.name < b.name ) { return -1 };
+                if ( a.name > b.name ) { return 1 };
+                return 0; 
+              });
+              var legend = d3.select('body').append('div')
+                .attr('class', 'team-name-container');
+
+              legend.selectAll('.team-name')
+                  .data(teams)
+                .enter()
+                  .append('div')
+                  .attr('class', 'team-name')
+                  .attr('data-team-index', function(d) { return d.index; })
+                  .style({
+                    color: function(d) { return d.color; },
+                    'border-color': function(d) { return d.color; }
+                  })
+                  .text(function(d) { return d.display; })
+                  .on('click', function(e) {
+                    removeSelection();
+                    var selector = 'path[data-team-index=\'' + e.index + '\']';
+                    d3.select(this).classed('selected', true);
+                    d3.select(selector).classed('selected', true).moveToFront();
+                  });
+
+              function removeSelection() {
+                d3.select('.team-name.selected').classed('selected', false);
+                d3.select('.line.selected').classed('selected', false);
+              }
+            });
+</script>
+    </body>
+</html>

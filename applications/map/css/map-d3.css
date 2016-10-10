@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+.smallPadding{
+    padding: 3% 0;
+}
+#visualisation{
+    padding-top: 20px;
+}
+#map{
+    border: 2px solid #CC003C;
+    padding: 0;
+    margin: 20px 0;
+}
+.map {
+    position: relative;
+    overflow: hidden;
+}
+.layerWater,
+.layerRoads,
+.layerBuildings,
+.layerRoutes,
+.layerStops {
+    position: absolute;
+}
+.tileWater,
+.tileRoad,
+.tileBuilding {
+    fill: #dde;
+    position: absolute;
+    width: 256px;
+    height: 256px;
+}
+.tileWater path {
+    stroke: none;
+}
+.tileRoad path {
+    fill: none;
+    stroke: #ccb;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+.tileRoad .major_road {
+    stroke: #776;
+}
+.tileRoad .minor_road {
+    stroke: #ccb;
+}
+.tileRoad .highway {
+    stroke: #776;
+    stroke-width: 1.5px;
+}
+.tileRoad .rail {
+    stroke: #ccb;
+}
+.info {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-family: sans-serif;
+}
+.tileWater .ocean {
+    stroke: none;
+    fill: #ededed;
+}
+.tileWater .lake,
+.tileWater .reservoir,
+.tileWater .riverbank,
+.tileWater .water,
+.tileWater .basin,
+.tileWater .dam {
+    fill: #deebf7;
+}
+
+.bernmobilRoute{
+    fill: none;
+}
+
+.bernmobilStop{
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+}

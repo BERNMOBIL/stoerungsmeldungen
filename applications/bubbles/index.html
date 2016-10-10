@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Open Data App University of Bern">
+    <meta name="author" content="Thomas Heuberger und Emanuel Hohn">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>BernMobil Visualisierung</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css_bm/BernMobil.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/bubble_chart.css">
+	
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+		
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html#start" class="smoothScroll">Open Data App</a></h1>
+			<i class="icon-remove menu-close"></i>
+			<a href="#start" class="smoothScroll">Start</a>
+            <a href="#visualisierung" class="smoothScroll">Visualisierung</a>
+			<a href="#vorgehen" class="smoothScroll">Vorgehen</a>
+			<a href="#about" class="smoothScroll">Über uns</a>
+			<a href="#contact" class="smoothScroll">Kontakt</a>
+			<a href="https://www.facebook.com/bernmobil" ><i class="icon-facebook"></i></a>
+			<a href="https://twitter.com/BERNMOBIL" ><i class="icon-twitter"></i></a>
+		</div>
+		
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="icon-reorder"></i></div>
+	</nav>
+	
+	<!-- ========== HEADER SECTION ========== -->
+	<section id="start" name="start"></section>
+	<div id="headerwrap">
+		<div class="container">
+			<br>
+			<h1>VISUALISIERUNG</h1>
+			<h2>VON OPEN DATA</h2>
+			<div class="row">
+				<br>
+				<br>
+				<br>
+				<div class="col-lg-6 col-lg-offset-3">
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+	
+	<!-- ========== WELCOME - WHITE SECTION ========== -->
+	<div id="w">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+                    <h3>WILLKOMMEN <bold>AUF UNSERER WEBSITE ZUR VISUALISIERUNG VON</bold> STÖRUNGSMELDUNGEN DER <a href="https://bernmobil.ch" >BERNMOBIL</a><bold>. ENTWICKElT WURDE DIESE APPLIKATION IM RAHMEN DER VORLESUNG </bold>"OPEN DATA"<bold> AN DER</bold> UNIVERSITÄT BERN<bold>.</bold><br/>
+				</h3>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /w -->
+	
+<!-- ========== SERVICES - GREY SECTION ========== -->
+<!-- ========== CHARTS - DARK GREY SECTION ========== -->
+      
+<!-- ======== HEADER APP - GREY SECTION ====== -->  
+	<div id="g2">
+		<div id="visualisierung" class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+                    <h3><span class="greytext">UNSERE VISUALISIERUNG</span><br><br>Bubble Chart mit Störungsdaten von Bernmobil</h3>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /w -->
+    
+    <!-- ========== Visualisierung - WHITE ================ -->
+    <div id="w2">
+        
+    <div id="g">
+          <div id="toolbar">
+          <a id="all" class="button active">Alle Störungen</a>
+          <a id="line" class="button">Störungen nach Linien</a>
+          <a id="type" class="button">Störungen nach Störungsart</a>
+          <a id="duration" class="button">Störungen nach Störungsdauer</a>
+          <a id="weekday" class="button">Störungen nach Wochentag</a>
+          <a id="year" class="button">Störungen nach Jahren</a>
+          </div>
+      </div>
+        <div id="vis"></div> <!-- VISUALISIERUNGS-DIV -->
+    
+   </div> 
+	<!-- ========== VORGEHEN - GREY SECTION ========== -->
+<section id="vorgehen" name="vorgehen"></section>
+	<div id="g">
+		<div class="container">
+			<div class="row">
+                <div class="vorgehen_text">
+                <h3>Vorgehen</h3>
+				<br>
+				<br>
+				<div class="col-lg-3 steps">
+                    <a data-toggle="tooltip" title="&quot;data icon PNG&quot; by designmodo is licensed under CC BY 3.0"><img src="assets/img/data-512.png" width=100px height=100px></a>
+					<h4>Schritt 1</h4>
+                    <p><p class="titel">Erkunden der Daten</p> Wir haben die Daten als Excel-File erhalten und erst einmal mit den unerschöpflichen Möglichkeiten von Excel erkundet. Pivot-Table-Experimente und Text-Mining haben schliesslich zu den in der Visualisierung verwendeten Daten geführt.<br><br>Die Original-Daten sowie das CSV-File findest du hier:
+                    <br>
+                    <br>
+                    <p><a href="assets/data/bm_excel.xlsx" download>Download .xlsx <i class="icon-file"></i></a></p>  
+                    <p><a href="assets/data/bm_bubbles.csv" download>Download .csv <i class="icon-file"></i></a></p>
+				</div>
+				<div class="col-lg-3 steps">
+                    <a data-toggle="tooltip" title="&quot;code optimization icon SVG&quot; by simpleicon.com"><img src="assets/img/Code-Optimization.png" width=100px height=100px></a>
+					<h4>Schritt 2</h4>
+                <p><p class="titel">Suche nach einer Visualisierungsform</p> 
+                    Relativ schnell war für uns klar, dass wir die Störungsdaten als Bubble-Chart darstellen wollen. Eine Visualisierung jeder einzelnen Störung als Bubble, deren Grösse von der Störungsdauer abhängt, machte für uns intuitiv Sinn. Ein bestehendes Code-Snippet, das direkt zu unseren Daten passt, haben wir leider nicht gefunden. Entsprechend war das Anpassen, Umbauen und Weiterentwickeln eines von uns ausgewählten Code-Snippets der Hauptteil unserer Arbeit.  <p> Das Original-Snippet bekommst du hier:</p>
+                    <p><a href="http://vallandingham.me/bubble_charts_in_js.html" target="_blank">Snippet Source <i class="icon-globe"></i></a></p>
+				</div>
+				<div class="col-lg-3 steps">
+                    <a data-toggle="tooltip" title="&quot;settings cog free icon SVG&quot; by Freepik on flatiocon.com"><img src="assets/img/Feedbin-Icon-settings.svg.png" width=100px height=100px></a>
+					<h4>Schritt 3</h4>
+                    <p><p class="titel">Customizing des Code-Snippets</p>
+                    
+                    Das von uns verwendete Code-Snippet war auf völlig andere Daten ausgelegt und vor allem auch, auf einen viel kleineren und weniger komplexen Datensatz. Wir mussten also diverse Anpassungen vornehmen, damit unsere Daten überhaupt sinnvoll dargestellt werden konnten. Weiter haben wir die  Darstellungsmöglichkeiten des Snippets erweitert, am Layout gebastelt und mit dem Kollisionsmechanismus der einzelnen Bubbles gekämpft. </p>
+				</div>
+				<div class="col-lg-3 steps">
+                    <a data-toggle="tooltip" title="&quot;edit finish free icon&quot; by manuelsax on onlinewebfonts.com"><img src="assets/img/0ab4261eb2cfade871533d7787c7940e.svg" width=100px height=100px></a>
+					<h4>Schritt 4</h4>
+                    
+                    <p><p class="titel">Letzter Schliff</p> Bug-Hunting und Bug-Fixing liessen uns nahezu wahnsinnig werden. Einige konkrete Vorstellungen mussten wir auch über Bord werfen, weil sie nicht mehr rechtzeitig umsetzbar waren. Abschliessend haben wir im letzten Schritt die Visualisierung in ein ansprechendes User Interface integriert. </p>
+                    
+                    <p><a href="assets/data/thomas_emanuel_BM.zip" download>Download our code as ZIP-File <i class="icon-download"></i></a></p>
+				</div>
+                </div>
+      </div>
+    </div>
+</div>
+    
+
+<!-- ========== ABOUT - GREY SECTION ========== -->
+        
+	<section id="about" name="about"></section>
+	<div id="w">
+		<div class="container">
+			<div class="row">
+				<h3>Über uns</h3>
+				<br>
+				<br>
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8">
+				<br>
+				<br>
+				</div>
+                <div class="col-lg-2"></div>
+				<div class="col-lg-6 team">
+					<img class="img-circle" src="assets/img/hosenflick.jpg" height="90" width="90">
+					<h4>THOMAS HEUBERGER</h4>
+					<h5><i>Student BSc Business Administration, Universität Bern</i></h5>
+					<p>
+						<a href="mailto:thomas.heuberger@students.unibe.ch"><i class="icon-envelope"></i></a>
+					</p>
+				</div>
+
+				<div class="col-lg-6 team">
+					<img class="img-circle" src="assets/img/catbox2.jpg" height="90" width="90">
+					<h4>EMANUEL HOHN</h4>
+					<h5><i>Student MSc Economics, Universität Bern</i></h5>
+					<p>
+                        <a href="mailto:emanuel.hohn@students.unibe.ch"><i class="icon-envelope"></i></a>
+					</p>
+				</div>
+            </div>
+		</div><!-- /container -->
+	</div><!-- /g -->
+	
+	<!-- ========== FOOTER SECTION ========== -->
+	<section id="contact" name="contact"></section>
+	<div id="f">
+		<div class="container">
+                        <h3><b><a href="https://bernmobil.ch" >Bernmobil</a></b></h3>
+						<p>
+							<a href="https://facebook.com/bernmobil" target="_blank"><i class="icon-facebook"></i></a>
+							<a href="https://twitter.com/BERNMOBIL" target="_blank"><i class="icon-twitter"></i></a>
+						</p>
+				</div>
+			
+		</div><!-- /container -->
+    
+    <!-- ========== CREDIT SECTION ========= -->
+    
+	<div id="c">
+		<div class="container">
+			<p>essential design credits to <a href="http://www.blacktie.co" >BLACKTIE.CO</a></p>
+		</div>
+	</div>
+	
+    <!-- ========== SCRIPT SECTION ========= -->
+    
+    <script src="assets/D3/d3.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.js"></script>
+    <script src="assets/bootstrap/js/bootstrap-treeview.js"></script>
+	<script src="assets/js/Chart.js"></script>
+	<script src="assets/js/classie.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/main.js"></script>
+    <script src="assets/js_bm/tooltip.js"></script>
+    <script src="assets/js_bm/bubble_chart.js"></script>
+</body>
+</html>

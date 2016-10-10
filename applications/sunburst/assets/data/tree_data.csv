@@ -1,0 +1,664 @@
+year;month;incident;tour
+2014;Dezember;Fahrzeugpanne;Linie 7
+2014;Dezember;Schneefall/Eis;Linie 10
+2014;Dezember;Schneefall/Eis;Linie 11
+2014;Dezember;Verkehrsüberlastung;Linie 11
+2014;Dezember;Schneefall/Eis;Linie 12
+2014;Dezember;Schneefall/Eis;Linie 16
+2014;Dezember;Schneefall/Eis;Linie 17
+2014;Dezember;Verkehrsunfall;Linie 17
+2014;Dezember;Fahrzeugpanne;Linie 19
+2014;Dezember;Schneefall/Eis;Linie 19
+2014;Dezember;Schneefall/Eis;Linie 20
+2014;Dezember;Schneefall/Eis;Linie 21
+2014;Dezember;Schneefall/Eis;Linie 26
+2014;Dezember;Fahrzeugpanne;Linie 27
+2014;Dezember;Schneefall/Eis;Linie 27
+2014;Dezember;Betriebsstörung;Linie 28
+2014;Dezember;Schneefall/Eis;Linie 28
+2014;Dezember;Schneefall/Eis;Linie 29
+2014;Dezember;Schneefall/Eis;Linie 30
+2014;Dezember;Betriebsstörung;Linie 31
+2015;Januar;Fahrzeugpanne;Linie 3
+2015;März;Fahrzeugpanne;Linie 3
+2015;März;Unregelmässiger Betrieb und Umleitungen;Linie 3
+2015;April;Verspätungen Allgemein;Linie 3
+2015;Mai;Kundgebung/Veranstaltung;Linie 3
+2015;Mai;Polizei/Feuerwehr/Sanität;Linie 3
+2015;Juni;Fahrzeugpanne;Linie 3
+2015;Juni;Kundgebung/Veranstaltung;Linie 3
+2015;Juli;Betriebsstörung;Linie 3
+2015;Juli;Fahrzeugpanne;Linie 3
+2015;August;Fahrzeugpanne;Linie 3
+2015;September;Ersatzfahrten und Kursausfälle;Linie 3
+2015;September;Kundgebung/Veranstaltung;Linie 3
+2015;Oktober;Betriebsstörung;Linie 3
+2015;Oktober;Kundgebung/Veranstaltung;Linie 3
+2015;November;Sonstige Störungen;Linie 3
+2015;November;Verkehrsbehinderung;Linie 3
+2015;Dezember;Sonstige Störungen;Linie 3
+2015;Dezember;Verkehrsunfall;Linie 3
+2015;Dezember;Verspätungen Allgemein;Linie 3
+2015;Januar;Fahrzeugpanne;Linie 6
+2015;Januar;Verkehrsüberlastung;Linie 6
+2015;Februar;Betriebsstörung;Linie 6
+2015;Februar;Kundgebung/Veranstaltung;Linie 6
+2015;Februar;Verkehrsüberlastung;Linie 6
+2015;Februar;Verspätungen Allgemein;Linie 6
+2015;März;Fahrzeugpanne;Linie 6
+2015;März;Kundgebung/Veranstaltung;Linie 6
+2015;März;Polizei/Feuerwehr/Sanität;Linie 6
+2015;März;Unregelmässiger Betrieb und Umleitungen;Linie 6
+2015;März;Verkehrsunfall;Linie 6
+2015;März;Verspätungen Allgemein;Linie 6
+2015;April;Fahrzeugpanne;Linie 6
+2015;April;Kundgebung/Veranstaltung;Linie 6
+2015;April;Verkehrsüberlastung;Linie 6
+2015;April;Verspätungen Allgemein;Linie 6
+2015;Mai;Betriebsstörung;Linie 6
+2015;Mai;Fahrzeugpanne;Linie 6
+2015;Mai;Kundgebung/Veranstaltung;Linie 6
+2015;Mai;Unregelmässiger Betrieb und Umleitungen;Linie 6
+2015;Mai;Verkehrsüberlastung;Linie 6
+2015;Mai;Verkehrsunfall;Linie 6
+2015;Mai;Verspätungen Allgemein;Linie 6
+2015;Juni;Betriebsstörung;Linie 6
+2015;Juni;Fahrzeugpanne;Linie 6
+2015;Juni;Kundgebung/Veranstaltung;Linie 6
+2015;Juni;Polizei/Feuerwehr/Sanität;Linie 6
+2015;Juni;Verkehrsüberlastung;Linie 6
+2015;Juni;Verkehrsunfall;Linie 6
+2015;Juli;Betriebsstörung;Linie 6
+2015;Juli;Fahrzeugpanne;Linie 6
+2015;Juli;Kundgebung/Veranstaltung;Linie 6
+2015;Juli;Verspätungen Allgemein;Linie 6
+2015;August;Fahrzeugpanne;Linie 6
+2015;August;Kundgebung/Veranstaltung;Linie 6
+2015;August;Verkehrsüberlastung;Linie 6
+2015;September;Kundgebung/Veranstaltung;Linie 6
+2015;September;Unregelmässiger Betrieb und Umleitungen;Linie 6
+2015;September;Verkehrsunfall;Linie 6
+2015;Oktober;Betriebsstörung;Linie 6
+2015;Oktober;Fahrzeugpanne;Linie 6
+2015;Oktober;Kundgebung/Veranstaltung;Linie 6
+2015;Oktober;Sonstige Störungen;Linie 6
+2015;Oktober;Verkehrsüberlastung;Linie 6
+2015;November;Fahrzeugpanne;Linie 6
+2015;November;Kundgebung/Veranstaltung;Linie 6
+2015;November;Sonstige Störungen;Linie 6
+2015;November;Verspätungen Allgemein;Linie 6
+2015;Dezember;Fahrzeugpanne;Linie 6
+2015;Dezember;Kundgebung/Veranstaltung;Linie 6
+2015;Dezember;Polizei/Feuerwehr/Sanität;Linie 6
+2015;Dezember;Verkehrsunfall;Linie 6
+2015;Dezember;Verspätungen Allgemein;Linie 6
+2015;Januar;Fahrzeugpanne;Linie 7
+2015;Januar;Verspätungen Allgemein;Linie 7
+2015;Februar;Betriebsstörung;Linie 7
+2015;Februar;Fahrzeugpanne;Linie 7
+2015;Februar;Kundgebung/Veranstaltung;Linie 7
+2015;Februar;Verspätungen Allgemein;Linie 7
+2015;März;Betriebsstörung;Linie 7
+2015;März;Fahrzeugpanne;Linie 7
+2015;März;Kundgebung/Veranstaltung;Linie 7
+2015;März;Polizei/Feuerwehr/Sanität;Linie 7
+2015;März;Unregelmässiger Betrieb und Umleitungen;Linie 7
+2015;April;Fahrzeugpanne;Linie 7
+2015;April;Kundgebung/Veranstaltung;Linie 7
+2015;April;Verkehrsüberlastung;Linie 7
+2015;April;Verkehrsunfall;Linie 7
+2015;April;Verspätungen Allgemein;Linie 7
+2015;Mai;Betriebsstörung;Linie 7
+2015;Mai;Ersatzfahrten und Kursausfälle;Linie 7
+2015;Mai;Fahrzeugpanne;Linie 7
+2015;Mai;Kundgebung/Veranstaltung;Linie 7
+2015;Mai;Unregelmässiger Betrieb und Umleitungen;Linie 7
+2015;Mai;Verkehrsüberlastung;Linie 7
+2015;Mai;Verkehrsunfall;Linie 7
+2015;Mai;Verspätungen Allgemein;Linie 7
+2015;Juni;Betriebsstörung;Linie 7
+2015;Juni;Ersatzfahrten und Kursausfälle;Linie 7
+2015;Juni;Fahrzeugpanne;Linie 7
+2015;Juni;Kundgebung/Veranstaltung;Linie 7
+2015;Juni;Polizei/Feuerwehr/Sanität;Linie 7
+2015;Juni;Sonstige Störungen;Linie 7
+2015;Juni;Unregelmässiger Betrieb und Umleitungen;Linie 7
+2015;Juni;Verkehrsunfall;Linie 7
+2015;Juli;Betriebsstörung;Linie 7
+2015;Juli;Kundgebung/Veranstaltung;Linie 7
+2015;August;Fahrzeugpanne;Linie 7
+2015;August;Kundgebung/Veranstaltung;Linie 7
+2015;August;Verkehrsüberlastung;Linie 7
+2015;September;Bauarbeiten;Linie 7
+2015;September;Kundgebung/Veranstaltung;Linie 7
+2015;September;Sonstige Störungen;Linie 7
+2015;September;Unregelmässiger Betrieb und Umleitungen;Linie 7
+2015;September;Verkehrsunfall;Linie 7
+2015;Oktober;Betriebsstörung;Linie 7
+2015;Oktober;Fahrzeugpanne;Linie 7
+2015;Oktober;Kundgebung/Veranstaltung;Linie 7
+2015;Oktober;Sonstige Störungen;Linie 7
+2015;Oktober;Verspätungen Allgemein;Linie 7
+2015;November;Betriebsstörung;Linie 7
+2015;November;Fahrzeugpanne;Linie 7
+2015;November;Kundgebung/Veranstaltung;Linie 7
+2015;November;Sonstige Störungen;Linie 7
+2015;November;Verkehrsunfall;Linie 7
+2015;Dezember;Fahrzeugpanne;Linie 7
+2015;Dezember;Kundgebung/Veranstaltung;Linie 7
+2015;Dezember;Polizei/Feuerwehr/Sanität;Linie 7
+2015;Dezember;Verkehrsunfall;Linie 7
+2015;Dezember;Verspätungen Allgemein;Linie 7
+2015;Januar;Fahrzeugpanne;Linie 8
+2015;Januar;Verkehrsüberlastung;Linie 8
+2015;Januar;Verspätungen Allgemein;Linie 8
+2015;Februar;Betriebsstörung;Linie 8
+2015;Februar;Fahrzeugpanne;Linie 8
+2015;Februar;Kundgebung/Veranstaltung;Linie 8
+2015;Februar;Verspätungen Allgemein;Linie 8
+2015;März;Fahrzeugpanne;Linie 8
+2015;März;Kundgebung/Veranstaltung;Linie 8
+2015;März;Polizei/Feuerwehr/Sanität;Linie 8
+2015;März;Unregelmässiger Betrieb und Umleitungen;Linie 8
+2015;April;Betriebsstörung;Linie 8
+2015;April;Kundgebung/Veranstaltung;Linie 8
+2015;April;Verkehrsüberlastung;Linie 8
+2015;April;Verspätungen Allgemein;Linie 8
+2015;Mai;Betriebsstörung;Linie 8
+2015;Mai;Fahrzeugpanne;Linie 8
+2015;Mai;Kundgebung/Veranstaltung;Linie 8
+2015;Mai;Unregelmässiger Betrieb und Umleitungen;Linie 8
+2015;Mai;Verkehrsüberlastung;Linie 8
+2015;Mai;Verkehrsunfall;Linie 8
+2015;Mai;Verspätungen Allgemein;Linie 8
+2015;Juni;Betriebsstörung;Linie 8
+2015;Juni;Fahrzeugpanne;Linie 8
+2015;Juni;Kundgebung/Veranstaltung;Linie 8
+2015;Juni;Polizei/Feuerwehr/Sanität;Linie 8
+2015;Juni;Unregelmässiger Betrieb und Umleitungen;Linie 8
+2015;Juni;Verkehrsunfall;Linie 8
+2015;Juli;Bauarbeiten;Linie 8
+2015;Juli;Betriebsstörung;Linie 8
+2015;Juli;Fahrzeugpanne;Linie 8
+2015;Juli;Kundgebung/Veranstaltung;Linie 8
+2015;August;Fahrzeugpanne;Linie 8
+2015;August;Kundgebung/Veranstaltung;Linie 8
+2015;August;Verkehrsüberlastung;Linie 8
+2015;August;Verkehrsunfall;Linie 8
+2015;September;Kundgebung/Veranstaltung;Linie 8
+2015;September;Unregelmässiger Betrieb und Umleitungen;Linie 8
+2015;September;Verkehrsunfall;Linie 8
+2015;Oktober;Betriebsstörung;Linie 8
+2015;Oktober;Fahrzeugpanne;Linie 8
+2015;Oktober;Kundgebung/Veranstaltung;Linie 8
+2015;November;Betriebsstörung;Linie 8
+2015;November;Fahrzeugpanne;Linie 8
+2015;November;Kundgebung/Veranstaltung;Linie 8
+2015;November;Sonstige Störungen;Linie 8
+2015;November;Verkehrsunfall;Linie 8
+2015;Dezember;Fahrzeugpanne;Linie 8
+2015;Dezember;Kundgebung/Veranstaltung;Linie 8
+2015;Dezember;Polizei/Feuerwehr/Sanität;Linie 8
+2015;Dezember;Verkehrsunfall;Linie 8
+2015;Dezember;Verspätungen Allgemein;Linie 8
+2015;Januar;Fahrzeugpanne;Linie 9
+2015;Januar;Kundgebung/Veranstaltung;Linie 9
+2015;Februar;Ersatzfahrten und Kursausfälle;Linie 9
+2015;Februar;Kundgebung/Veranstaltung;Linie 9
+2015;Februar;Verkehrsbehinderung;Linie 9
+2015;Februar;Verkehrsüberlastung;Linie 9
+2015;Februar;Verkehrsunfall;Linie 9
+2015;Februar;Verspätungen Allgemein;Linie 9
+2015;März;Betriebsstörung;Linie 9
+2015;März;Ersatzfahrten und Kursausfälle;Linie 9
+2015;März;Fahrzeugpanne;Linie 9
+2015;März;Kundgebung/Veranstaltung;Linie 9
+2015;März;Polizei/Feuerwehr/Sanität;Linie 9
+2015;März;Unregelmässiger Betrieb und Umleitungen;Linie 9
+2015;April;Fahrzeugpanne;Linie 9
+2015;April;Kundgebung/Veranstaltung;Linie 9
+2015;April;Unregelmässiger Betrieb und Umleitungen;Linie 9
+2015;April;Verkehrsunfall;Linie 9
+2015;April;Verspätungen Allgemein;Linie 9
+2015;Mai;Betriebsstörung;Linie 9
+2015;Mai;Fahrzeugpanne;Linie 9
+2015;Mai;Kundgebung/Veranstaltung;Linie 9
+2015;Mai;Unregelmässiger Betrieb und Umleitungen;Linie 9
+2015;Mai;Verkehrsunfall;Linie 9
+2015;Mai;Verspätungen Allgemein;Linie 9
+2015;Juni;Kundgebung/Veranstaltung;Linie 9
+2015;Juni;Polizei/Feuerwehr/Sanität;Linie 9
+2015;Juli;Betriebsstörung;Linie 9
+2015;Juli;Fahrzeugpanne;Linie 9
+2015;Juli;Kundgebung/Veranstaltung;Linie 9
+2015;Juli;Sonstige Störungen;Linie 9
+2015;Juli;Verkehrsüberlastung;Linie 9
+2015;Juli;Verkehrsunfall;Linie 9
+2015;August;Fahrzeugpanne;Linie 9
+2015;August;Kundgebung/Veranstaltung;Linie 9
+2015;August;Verkehrsüberlastung;Linie 9
+2015;September;Ersatzfahrten und Kursausfälle;Linie 9
+2015;September;Kundgebung/Veranstaltung;Linie 9
+2015;September;Sonstige Störungen;Linie 9
+2015;Oktober;Fahrzeugpanne;Linie 9
+2015;Oktober;Kundgebung/Veranstaltung;Linie 9
+2015;Oktober;Verkehrsüberlastung;Linie 9
+2015;Oktober;Verspätungen Allgemein;Linie 9
+2015;November;Betriebsstörung;Linie 9
+2015;November;Fahrzeugpanne;Linie 9
+2015;November;Kundgebung/Veranstaltung;Linie 9
+2015;November;Sonstige Störungen;Linie 9
+2015;November;Verkehrsunfall;Linie 9
+2015;Dezember;Fahrzeugpanne;Linie 9
+2015;Dezember;Kundgebung/Veranstaltung;Linie 9
+2015;Dezember;Verkehrsüberlastung;Linie 9
+2015;Januar;Kundgebung/Veranstaltung;Linie 10
+2015;Januar;Polizei/Feuerwehr/Sanität;Linie 10
+2015;Januar;Verkehrsüberlastung;Linie 10
+2015;Februar;Kundgebung/Veranstaltung;Linie 10
+2015;Februar;Verkehrsbehinderung;Linie 10
+2015;März;Kundgebung/Veranstaltung;Linie 10
+2015;März;Unregelmässiger Betrieb und Umleitungen;Linie 10
+2015;März;Verkehrsüberlastung;Linie 10
+2015;März;Verspätungen Allgemein;Linie 10
+2015;April;Bauarbeiten;Linie 10
+2015;April;Ersatzfahrten und Kursausfälle;Linie 10
+2015;April;Kundgebung/Veranstaltung;Linie 10
+2015;April;Verkehrsüberlastung;Linie 10
+2015;April;Verkehrsunfall;Linie 10
+2015;April;Verspätungen Allgemein;Linie 10
+2015;Mai;Bauarbeiten;Linie 10
+2015;Mai;Kundgebung/Veranstaltung;Linie 10
+2015;Mai;Verkehrsüberlastung;Linie 10
+2015;Juni;Bauarbeiten;Linie 10
+2015;Juni;Kundgebung/Veranstaltung;Linie 10
+2015;Juni;Verkehrsüberlastung;Linie 10
+2015;Juli;Bauarbeiten;Linie 10
+2015;August;Bauarbeiten;Linie 10
+2015;August;Kundgebung/Veranstaltung;Linie 10
+2015;August;Unregelmässiger Betrieb und Umleitungen;Linie 10
+2015;August;Verkehrsüberlastung;Linie 10
+2015;September;Bauarbeiten;Linie 10
+2015;September;Kundgebung/Veranstaltung;Linie 10
+2015;September;Verkehrsüberlastung;Linie 10
+2015;September;Verkehrsunfall;Linie 10
+2015;Oktober;Fahrzeugpanne;Linie 10
+2015;Oktober;Kundgebung/Veranstaltung;Linie 10
+2015;Oktober;Verkehrsüberlastung;Linie 10
+2015;November;Kundgebung/Veranstaltung;Linie 10
+2015;November;Sonstige Störungen;Linie 10
+2015;November;Verkehrsüberlastung;Linie 10
+2015;November;Verkehrsunfall;Linie 10
+2015;Dezember;Bauarbeiten;Linie 10
+2015;Dezember;Verkehrsüberlastung;Linie 10
+2015;Januar;Fahrzeugpanne;Linie 11
+2015;Januar;Schneefall/Eis;Linie 11
+2015;März;Kundgebung/Veranstaltung;Linie 11
+2015;März;Sonstige Störungen;Linie 11
+2015;März;Verspätungen Allgemein;Linie 11
+2015;April;Kundgebung/Veranstaltung;Linie 11
+2015;April;Verkehrsüberlastung;Linie 11
+2015;Mai;Kundgebung/Veranstaltung;Linie 11
+2015;Mai;Sonstige Störungen;Linie 11
+2015;Mai;Verkehrsüberlastung;Linie 11
+2015;Juni;Betriebsstörung;Linie 11
+2015;Juni;Kundgebung/Veranstaltung;Linie 11
+2015;Juni;Verkehrsüberlastung;Linie 11
+2015;August;Verkehrsüberlastung;Linie 11
+2015;August;Verkehrsunfall;Linie 11
+2015;September;Kundgebung/Veranstaltung;Linie 11
+2015;September;Sonstige Störungen;Linie 11
+2015;September;Verkehrsüberlastung;Linie 11
+2015;Oktober;Fahrzeugpanne;Linie 11
+2015;Oktober;Kundgebung/Veranstaltung;Linie 11
+2015;Oktober;Verkehrsüberlastung;Linie 11
+2015;Oktober;Verkehrsunfall;Linie 11
+2015;November;Sonstige Störungen;Linie 11
+2015;November;Unregelmässiger Betrieb und Umleitungen;Linie 11
+2015;Dezember;Kundgebung/Veranstaltung;Linie 11
+2015;Dezember;Sonstige Störungen;Linie 11
+2015;Dezember;Verkehrsüberlastung;Linie 11
+2015;Dezember;Verspätungen Allgemein;Linie 11
+2015;Januar;Schneefall/Eis;Linie 12
+2015;Februar;Betriebsstörung;Linie 12
+2015;Februar;Kundgebung/Veranstaltung;Linie 12
+2015;Februar;Sonstige Störungen;Linie 12
+2015;Februar;Verkehrsbehinderung;Linie 12
+2015;März;Kundgebung/Veranstaltung;Linie 12
+2015;März;Sonstige Störungen;Linie 12
+2015;April;Fahrzeugpanne;Linie 12
+2015;April;Kundgebung/Veranstaltung;Linie 12
+2015;April;Sonstige Störungen;Linie 12
+2015;April;Unregelmässiger Betrieb und Umleitungen;Linie 12
+2015;Mai;Kundgebung/Veranstaltung;Linie 12
+2015;Mai;Sonstige Störungen;Linie 12
+2015;Mai;Unregelmässiger Betrieb und Umleitungen;Linie 12
+2015;Mai;Verkehrsunfall;Linie 12
+2015;Mai;Verspätungen Allgemein;Linie 12
+2015;Juni;Kundgebung/Veranstaltung;Linie 12
+2015;Juni;Polizei/Feuerwehr/Sanität;Linie 12
+2015;August;Fahrzeugpanne;Linie 12
+2015;August;Kundgebung/Veranstaltung;Linie 12
+2015;August;Verkehrsunfall;Linie 12
+2015;September;Bauarbeiten;Linie 12
+2015;Oktober;Fahrzeugpanne;Linie 12
+2015;Oktober;Kundgebung/Veranstaltung;Linie 12
+2015;Oktober;Verkehrsunfall;Linie 12
+2015;Oktober;Verspätungen Allgemein;Linie 12
+2015;November;Bauarbeiten;Linie 12
+2015;November;Fahrzeugpanne;Linie 12
+2015;November;Kundgebung/Veranstaltung;Linie 12
+2015;November;Sonstige Störungen;Linie 12
+2015;November;Verkehrsüberlastung;Linie 12
+2015;Dezember;Fahrzeugpanne;Linie 12
+2015;Dezember;Kundgebung/Veranstaltung;Linie 12
+2015;Februar;Ersatzfahrten und Kursausfälle;Linie 16
+2015;Februar;Fahrzeugpanne;Linie 16
+2015;Juni;Kundgebung/Veranstaltung;Linie 16
+2015;Oktober;Kundgebung/Veranstaltung;Linie 16
+2015;November;Sonstige Störungen;Linie 16
+2015;März;Kundgebung/Veranstaltung;Linie 17
+2015;März;Verspätungen Allgemein;Linie 17
+2015;April;Verkehrsunfall;Linie 17
+2015;April;Verspätungen Allgemein;Linie 17
+2015;Mai;Kundgebung/Veranstaltung;Linie 17
+2015;Mai;Polizei/Feuerwehr/Sanität;Linie 17
+2015;Mai;Verkehrsüberlastung;Linie 17
+2015;Juni;Kundgebung/Veranstaltung;Linie 17
+2015;Juni;Verkehrsüberlastung;Linie 17
+2015;Juli;Unregelmässiger Betrieb und Umleitungen;Linie 17
+2015;August;Bauarbeiten;Linie 17
+2015;August;Verkehrsüberlastung;Linie 17
+2015;August;Verkehrsunfall;Linie 17
+2015;September;Bauarbeiten;Linie 17
+2015;September;Verkehrsüberlastung;Linie 17
+2015;Oktober;Betriebsstörung;Linie 17
+2015;Oktober;Kundgebung/Veranstaltung;Linie 17
+2015;Oktober;Verkehrsüberlastung;Linie 17
+2015;November;Sonstige Störungen;Linie 17
+2015;Dezember;Unregelmässiger Betrieb und Umleitungen;Linie 17
+2015;Dezember;Verkehrsüberlastung;Linie 17
+2015;Januar;Fahrzeugpanne;Linie 19
+2015;Januar;Kundgebung/Veranstaltung;Linie 19
+2015;Januar;Schneefall/Eis;Linie 19
+2015;Januar;Verkehrsunfall;Linie 19
+2015;Februar;Kundgebung/Veranstaltung;Linie 19
+2015;Februar;Schneefall/Eis;Linie 19
+2015;März;Fahrzeugpanne;Linie 19
+2015;März;Kundgebung/Veranstaltung;Linie 19
+2015;März;Unregelmässiger Betrieb und Umleitungen;Linie 19
+2015;April;Bauarbeiten;Linie 19
+2015;April;Ersatzfahrten und Kursausfälle;Linie 19
+2015;April;Kundgebung/Veranstaltung;Linie 19
+2015;April;Verkehrsunfall;Linie 19
+2015;Mai;Bauarbeiten;Linie 19
+2015;Mai;Kundgebung/Veranstaltung;Linie 19
+2015;Mai;Verkehrsüberlastung;Linie 19
+2015;Juni;Kundgebung/Veranstaltung;Linie 19
+2015;Juni;Verkehrsüberlastung;Linie 19
+2015;August;Bauarbeiten;Linie 19
+2015;August;Fahrzeugpanne;Linie 19
+2015;August;Kundgebung/Veranstaltung;Linie 19
+2015;August;Unregelmässiger Betrieb und Umleitungen;Linie 19
+2015;September;Kundgebung/Veranstaltung;Linie 19
+2015;September;Unregelmässiger Betrieb und Umleitungen;Linie 19
+2015;September;Verkehrsunfall;Linie 19
+2015;Oktober;Kundgebung/Veranstaltung;Linie 19
+2015;November;Fahrzeugpanne;Linie 19
+2015;November;Kundgebung/Veranstaltung;Linie 19
+2015;November;Sonstige Störungen;Linie 19
+2015;November;Unregelmässiger Betrieb und Umleitungen;Linie 19
+2015;Dezember;Bauarbeiten;Linie 19
+2015;Januar;Fahrzeugpanne;Linie 20
+2015;Januar;Verkehrsüberlastung;Linie 20
+2015;Februar;Kundgebung/Veranstaltung;Linie 20
+2015;Februar;Verkehrsüberlastung;Linie 20
+2015;März;Kundgebung/Veranstaltung;Linie 20
+2015;März;Verspätungen Allgemein;Linie 20
+2015;April;Kundgebung/Veranstaltung;Linie 20
+2015;April;Verkehrsunfall;Linie 20
+2015;April;Verspätungen Allgemein;Linie 20
+2015;Mai;Kundgebung/Veranstaltung;Linie 20
+2015;Mai;Sonstige Störungen;Linie 20
+2015;Mai;Verkehrsüberlastung;Linie 20
+2015;Juni;Kundgebung/Veranstaltung;Linie 20
+2015;Juni;Verkehrsüberlastung;Linie 20
+2015;August;Kundgebung/Veranstaltung;Linie 20
+2015;August;Verkehrsüberlastung;Linie 20
+2015;September;Kundgebung/Veranstaltung;Linie 20
+2015;Oktober;Fahrzeugpanne;Linie 20
+2015;Oktober;Kundgebung/Veranstaltung;Linie 20
+2015;Oktober;Verkehrsüberlastung;Linie 20
+2015;November;Kundgebung/Veranstaltung;Linie 20
+2015;November;Sonstige Störungen;Linie 20
+2015;November;Unregelmässiger Betrieb und Umleitungen;Linie 20
+2015;November;Verkehrsüberlastung;Linie 20
+2015;Dezember;Verkehrsüberlastung;Linie 20
+2015;Januar;Schneefall/Eis;Linie 21
+2015;Januar;Verkehrsunfall;Linie 21
+2015;März;Kundgebung/Veranstaltung;Linie 21
+2015;März;Verkehrsunfall;Linie 21
+2015;März;Verspätungen Allgemein;Linie 21
+2015;April;Kundgebung/Veranstaltung;Linie 21
+2015;April;Verkehrsunfall;Linie 21
+2015;Mai;Fahrzeugpanne;Linie 21
+2015;Mai;Kundgebung/Veranstaltung;Linie 21
+2015;Mai;Sonstige Störungen;Linie 21
+2015;Juni;Fahrzeugpanne;Linie 21
+2015;Juni;Kundgebung/Veranstaltung;Linie 21
+2015;Juni;Verkehrsunfall;Linie 21
+2015;Juli;Fahrzeugpanne;Linie 21
+2015;August;Verkehrsunfall;Linie 21
+2015;September;Kundgebung/Veranstaltung;Linie 21
+2015;Oktober;Fahrzeugpanne;Linie 21
+2015;Oktober;Kundgebung/Veranstaltung;Linie 21
+2015;November;Sonstige Störungen;Linie 21
+2015;November;Unregelmässiger Betrieb und Umleitungen;Linie 21
+2015;Dezember;Verkehrsüberlastung;Linie 21
+2015;März;Sonstige Störungen;Linie 24
+2015;Januar;Fahrzeugpanne;Linie 26
+2015;Februar;Fahrzeugpanne;Linie 26
+2015;August;Fahrzeugpanne;Linie 26
+2015;Oktober;Kundgebung/Veranstaltung;Linie 26
+2015;November;Fahrzeugpanne;Linie 26
+2015;November;Sonstige Störungen;Linie 26
+2015;Dezember;Fahrzeugpanne;Linie 26
+2015;Januar;Kundgebung/Veranstaltung;Linie 27
+2015;März;Verkehrsunfall;Linie 27
+2015;Mai;Bauarbeiten;Linie 27
+2015;Juli;Betriebsstörung;Linie 27
+2015;Juli;Fahrzeugpanne;Linie 27
+2015;September;Polizei/Feuerwehr/Sanität;Linie 27
+2015;Oktober;Fahrzeugpanne;Linie 27
+2015;Oktober;Kundgebung/Veranstaltung;Linie 27
+2015;Oktober;Polizei/Feuerwehr/Sanität;Linie 27
+2015;Oktober;Verkehrsunfall;Linie 27
+2015;November;Sonstige Störungen;Linie 27
+2015;Januar;Schneefall/Eis;Linie 28
+2015;Januar;Verkehrsüberlastung;Linie 28
+2015;Januar;Verkehrsunfall;Linie 28
+2015;Februar;Kundgebung/Veranstaltung;Linie 28
+2015;März;Verkehrsüberlastung;Linie 28
+2015;März;Verkehrsunfall;Linie 28
+2015;April;Fahrzeugpanne;Linie 28
+2015;April;Verkehrsüberlastung;Linie 28
+2015;April;Verkehrsunfall;Linie 28
+2015;Mai;Verkehrsüberlastung;Linie 28
+2015;Juni;Kundgebung/Veranstaltung;Linie 28
+2015;Juni;Verkehrsunfall;Linie 28
+2015;Juli;Bauarbeiten;Linie 28
+2015;August;Fahrzeugpanne;Linie 28
+2015;August;Unregelmässiger Betrieb und Umleitungen;Linie 28
+2015;August;Verkehrsüberlastung;Linie 28
+2015;September;Kundgebung/Veranstaltung;Linie 28
+2015;September;Verkehrsunfall;Linie 28
+2015;Oktober;Bauarbeiten;Linie 28
+2015;Oktober;Fahrzeugpanne;Linie 28
+2015;Oktober;Kundgebung/Veranstaltung;Linie 28
+2015;Oktober;Verkehrsüberlastung;Linie 28
+2015;November;Bauarbeiten;Linie 28
+2015;November;Kundgebung/Veranstaltung;Linie 28
+2015;November;Sonstige Störungen;Linie 28
+2015;November;Verkehrsüberlastung;Linie 28
+2015;Dezember;Verkehrsüberlastung;Linie 28
+2015;Januar;Schneefall/Eis;Linie 29
+2015;Februar;Unregelmässiger Betrieb und Umleitungen;Linie 29
+2015;Februar;Verkehrsbehinderung;Linie 29
+2015;März;Verkehrsunfall;Linie 29
+2015;März;Verspätungen Allgemein;Linie 29
+2015;April;Fahrzeugpanne;Linie 29
+2015;April;Verkehrsüberlastung;Linie 29
+2015;Mai;Fahrzeugpanne;Linie 29
+2015;Juni;Bauarbeiten;Linie 29
+2015;Juni;Kundgebung/Veranstaltung;Linie 29
+2015;Juni;Verkehrsüberlastung;Linie 29
+2015;Juli;Ersatzfahrten und Kursausfälle;Linie 29
+2015;Juli;Fahrzeugpanne;Linie 29
+2015;August;Bauarbeiten;Linie 29
+2015;August;Fahrzeugpanne;Linie 29
+2015;August;Verkehrsüberlastung;Linie 29
+2015;September;Bauarbeiten;Linie 29
+2015;September;Verkehrsunfall;Linie 29
+2015;Oktober;Fahrzeugpanne;Linie 29
+2015;Oktober;Kundgebung/Veranstaltung;Linie 29
+2015;Oktober;Verkehrsüberlastung;Linie 29
+2015;November;Bauarbeiten;Linie 29
+2015;November;Fahrzeugpanne;Linie 29
+2015;November;Sonstige Störungen;Linie 29
+2015;November;Unregelmässiger Betrieb und Umleitungen;Linie 29
+2015;Dezember;Bauarbeiten;Linie 29
+2015;Januar;Schneefall/Eis;Linie 30
+2015;Februar;Kundgebung/Veranstaltung;Linie 30
+2015;Februar;Verkehrsbehinderung;Linie 30
+2015;Mai;Unregelmässiger Betrieb und Umleitungen;Linie 30
+2015;Mai;Verkehrsbehinderung;Linie 30
+2015;August;Kundgebung/Veranstaltung;Linie 30
+2015;September;Bauarbeiten;Linie 30
+2015;Oktober;Kundgebung/Veranstaltung;Linie 30
+2015;November;Sonstige Störungen;Linie 30
+2015;Dezember;Unregelmässiger Betrieb und Umleitungen;Linie 30
+2015;Januar;Fahrzeugpanne;Linie 31
+2015;Januar;Verkehrsbehinderung;Linie 31
+2015;August;Bauarbeiten;Linie 31
+2015;Oktober;Kundgebung/Veranstaltung;Linie 31
+2015;November;Sonstige Störungen;Linie 31
+2015;Juni;Fahrzeugpanne;Linie 32
+2015;Oktober;Kundgebung/Veranstaltung;Linie 32
+2015;November;Sonstige Störungen;Linie 32
+2016;Januar;Betriebsstörung;Linie 3
+2016;Februar;Kundgebung/Veranstaltung;Linie 3
+2016;März;Fahrzeugpanne;Linie 3
+2016;Januar;Betriebsstörung;Linie 6
+2016;Januar;Fahrzeugpanne;Linie 6
+2016;Januar;Kundgebung/Veranstaltung;Linie 6
+2016;Januar;Polizei/Feuerwehr/Sanität;Linie 6
+2016;Januar;Sonstige Störungen;Linie 6
+2016;Januar;Verkehrsüberlastung;Linie 6
+2016;Januar;Verkehrsunfall;Linie 6
+2016;Februar;Bauarbeiten;Linie 6
+2016;Februar;Betriebsstörung;Linie 6
+2016;Februar;Fahrzeugpanne;Linie 6
+2016;Februar;Kundgebung/Veranstaltung;Linie 6
+2016;Februar;Verspätungen Allgemein;Linie 6
+2016;März;Betriebsstörung;Linie 6
+2016;März;Fahrzeugpanne;Linie 6
+2016;März;Sonstige Störungen;Linie 6
+2016;März;Unregelmässiger Betrieb und Umleitungen;Linie 6
+2016;März;Verkehrsunfall;Linie 6
+2016;Januar;Betriebsstörung;Linie 7
+2016;Januar;Fahrzeugpanne;Linie 7
+2016;Januar;Kundgebung/Veranstaltung;Linie 7
+2016;Januar;Verkehrsüberlastung;Linie 7
+2016;Februar;Bauarbeiten;Linie 7
+2016;Februar;Betriebsstörung;Linie 7
+2016;Februar;Fahrzeugpanne;Linie 7
+2016;Februar;Kundgebung/Veranstaltung;Linie 7
+2016;Februar;Schneefall/Eis;Linie 7
+2016;März;Betriebsstörung;Linie 7
+2016;März;Fahrzeugpanne;Linie 7
+2016;März;Unregelmässiger Betrieb und Umleitungen;Linie 7
+2016;März;Verkehrsunfall;Linie 7
+2016;Januar;Betriebsstörung;Linie 8
+2016;Januar;Fahrzeugpanne;Linie 8
+2016;Januar;Kundgebung/Veranstaltung;Linie 8
+2016;Januar;Verkehrsüberlastung;Linie 8
+2016;Februar;Bauarbeiten;Linie 8
+2016;Februar;Betriebsstörung;Linie 8
+2016;Februar;Fahrzeugpanne;Linie 8
+2016;Februar;Kundgebung/Veranstaltung;Linie 8
+2016;Februar;Schneefall/Eis;Linie 8
+2016;Februar;Verspätungen Allgemein;Linie 8
+2016;März;Betriebsstörung;Linie 8
+2016;März;Fahrzeugpanne;Linie 8
+2016;März;Unregelmässiger Betrieb und Umleitungen;Linie 8
+2016;März;Verkehrsunfall;Linie 8
+2016;Januar;Betriebsstörung;Linie 9
+2016;Januar;Fahrzeugpanne;Linie 9
+2016;Januar;Kundgebung/Veranstaltung;Linie 9
+2016;Januar;Verkehrsüberlastung;Linie 9
+2016;Januar;Verspätungen Allgemein;Linie 9
+2016;Februar;Betriebsstörung;Linie 9
+2016;Februar;Fahrzeugpanne;Linie 9
+2016;Februar;Kundgebung/Veranstaltung;Linie 9
+2016;Februar;Verkehrsüberlastung;Linie 9
+2016;Februar;Verkehrsunfall;Linie 9
+2016;März;Fahrzeugpanne;Linie 9
+2016;März;Kundgebung/Veranstaltung;Linie 9
+2016;März;Unregelmässiger Betrieb und Umleitungen;Linie 9
+2016;Januar;Kundgebung/Veranstaltung;Linie 10
+2016;Januar;Schneefall/Eis;Linie 10
+2016;Januar;Unregelmässiger Betrieb und Umleitungen;Linie 10
+2016;Januar;Verkehrsüberlastung;Linie 10
+2016;Februar;Betriebsstörung;Linie 10
+2016;Februar;Kundgebung/Veranstaltung;Linie 10
+2016;Februar;Verkehrsüberlastung;Linie 10
+2016;Februar;Verkehrsunfall;Linie 10
+2016;Januar;Verkehrsbehinderung;Linie 11
+2016;Januar;Verkehrsunfall;Linie 11
+2016;Februar;Fahrzeugpanne;Linie 11
+2016;Februar;Kundgebung/Veranstaltung;Linie 11
+2016;März;Fahrzeugpanne;Linie 11
+2016;März;Polizei/Feuerwehr/Sanität;Linie 11
+2016;Januar;Fahrzeugpanne;Linie 12
+2016;Januar;Kundgebung/Veranstaltung;Linie 12
+2016;Januar;Schneefall/Eis;Linie 12
+2016;Februar;Betriebsstörung;Linie 12
+2016;Februar;Fahrzeugpanne;Linie 12
+2016;Februar;Kundgebung/Veranstaltung;Linie 12
+2016;Februar;Verkehrsunfall;Linie 12
+2016;März;Fahrzeugpanne;Linie 12
+2016;März;Verspätungen Allgemein;Linie 12
+2016;Januar;Fahrzeugpanne;Linie 16
+2016;Februar;Unregelmässiger Betrieb und Umleitungen;Linie 17
+2016;Januar;Fahrzeugpanne;Linie 19
+2016;Januar;Kundgebung/Veranstaltung;Linie 19
+2016;Januar;Unregelmässiger Betrieb und Umleitungen;Linie 19
+2016;Januar;Verkehrsüberlastung;Linie 19
+2016;Februar;Bauarbeiten;Linie 19
+2016;Februar;Betriebsstörung;Linie 19
+2016;Februar;Fahrzeugpanne;Linie 19
+2016;Februar;Kundgebung/Veranstaltung;Linie 19
+2016;Januar;Verkehrsüberlastung;Linie 20
+2016;Januar;Verkehrsunfall;Linie 20
+2016;Februar;Kundgebung/Veranstaltung;Linie 20
+2016;Februar;Verkehrsüberlastung;Linie 20
+2016;März;Kundgebung/Veranstaltung;Linie 20
+2016;Januar;Verkehrsbehinderung;Linie 21
+2016;Februar;Kundgebung/Veranstaltung;Linie 21
+2016;März;Polizei/Feuerwehr/Sanität;Linie 21
+2016;Januar;Fahrzeugpanne;Linie 26
+2016;Januar;Fahrzeugpanne;Linie 27
+2016;Januar;Polizei/Feuerwehr/Sanität;Linie 27
+2016;März;Verkehrsunfall;Linie 27
+2016;Januar;Verkehrsbehinderung;Linie 28
+2016;Januar;Verkehrsüberlastung;Linie 28
+2016;Februar;Bauarbeiten;Linie 28
+2016;Februar;Kundgebung/Veranstaltung;Linie 28
+2016;Februar;Verkehrsüberlastung;Linie 28
+2016;Januar;Verkehrsunfall;Linie 29
+2016;Februar;Bauarbeiten;Linie 29
+2016;Februar;Fahrzeugpanne;Linie 29
+2016;März;Bauarbeiten;Linie 29
+2016;Februar;Kundgebung/Veranstaltung;Linie 30
+2016;Januar;Betriebsstörung;Linie 31
+2016;Februar;Polizei/Feuerwehr/Sanität;Linie 31

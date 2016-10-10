@@ -1,0 +1,59 @@
+  .story_text {
+    width: 700;
+    text-align: justify;
+    color: black;
+      line-height: 1.5; 
+  }    
+      
+.story_img {
+    padding-top:10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border:1px solid black;
+    color: black;
+    
+}
+
+.story_title {
+    text-align: center;
+    color: #CC003D;
+}
+
+/* White Wrap */
+
+#w_story {
+	background: #ffffff;
+	text-align: center;
+}
+
+#w_story h3 bold {
+	font-weight: 700;
+	color: #7b7b7b;
+	letter-spacing: 1px;
+}
+
+#w_story h3 {
+	font-weight: 700;
+	color: #CC003D;
+	letter-spacing: 1px;
+}
+
+#w_story bold {
+	color: #CC003D;
+}
+
+
+/* Grey Wrap */
+
+#g_story {
+	background: #f2f2f2;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#g_story h3 {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
